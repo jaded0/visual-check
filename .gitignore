@@ -1,0 +1,12 @@
+/pdfs/2003/
+/pdfs/2302/
+/llama_weights/
+/stanford_alpaca/
+/transformers/
+/llama_weights
+/output/*
+/pdfs/bigmages/
+/pdfs/images/
+visual-check.code-workspace
+/wandb/
+/__pycache__/
