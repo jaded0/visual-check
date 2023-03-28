@@ -1,4 +1,4 @@
-Mon Mar 27 09:13:27 2023       
+Tue Mar 28 12:15:00 2023       
 +-----------------------------------------------------------------------------+
 | NVIDIA-SMI 470.161.03   Driver Version: 470.161.03   CUDA Version: 11.4     |
 |-------------------------------+----------------------+----------------------+
@@ -6,12 +6,12 @@ Mon Mar 27 09:13:27 2023
 | Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
 |                               |                      |               MIG M. |
 |===============================+======================+======================|
-|   0  NVIDIA A100-SXM...  On   | 00000000:84:00.0 Off |                    0 |
-| N/A   28C    P0    62W / 400W |      0MiB / 81251MiB |      0%      Default |
+|   0  NVIDIA A100-SXM...  On   | 00000000:07:00.0 Off |                    0 |
+| N/A   31C    P0    64W / 400W |      0MiB / 81251MiB |      0%      Default |
 |                               |                      |             Disabled |
 +-------------------------------+----------------------+----------------------+
-|   1  NVIDIA A100-SXM...  On   | 00000000:8A:00.0 Off |                    0 |
-| N/A   26C    P0    62W / 400W |      0MiB / 81251MiB |      0%      Default |
+|   1  NVIDIA A100-SXM...  On   | 00000000:0A:00.0 Off |                    0 |
+| N/A   28C    P0    63W / 400W |      0MiB / 81251MiB |      0%      Default |
 |                               |                      |             Disabled |
 +-------------------------------+----------------------+----------------------+
                                                                                
@@ -44,33 +44,33 @@ This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded forma
 This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex)
  restricted \write18 enabled.
 entering extended mode
-(/tmp/tmpsuuur0ka/temp.tex
+(/tmp/tmp6weeeruh/temp.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22>entering extended mode
-(/tmp/tmpne70ve2y/temp.tex
+(/tmp/tmpkeiez6hu/temp.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22>
 (/home/jaded79/texlive/texmf-dist/tex/latex/base/article.cls
 (/home/jaded79/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
-(/home/jaded79/texlive/texmf-dist/tex/latex/base/size10.clo))
+(/home/jaded79/texlive/texmf-dist/tex/latex/base/size10.clo
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
-(/home/jaded79/texlive/texmf-dist/tex/latex/base/size10.clo))
-(/home/jaded79/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
-(/home/jaded79/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(/home/jaded79/texlive/texmf-dist/tex/latex/base/size10.clo))))
+(/home/jaded79/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+(/home/jaded79/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def))
 No file temp.aux.
 [1
 No file temp.aux.
-[1{/home/jaded79/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(/tmp/tmpsuuur0ka/temp.aux){/home/jaded79/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(/tmp/tmpne70ve2y/temp.aux) )</home/jaded79/texlive/texmf-dist/fonts/type1/publ
+[1{/home/jaded79/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map{/home/jaded79/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(/tmp/tmp6weeeruh/temp.aux)}]
+(/tmp/tmpkeiez6hu/temp.aux) )</home/jaded79/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr10.pfb )</home/jaded79/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmr10.pfb>
-Output written on /tmp/tmpsuuur0ka/temp.pdf (1 page, 12875 bytes).
-Transcript written on /tmp/tmpsuuur0ka/temp.log.
- )</home/jaded79/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr10.pfb>
-Output written on /tmp/tmpne70ve2y/temp.pdf (1 page, 12875 bytes).
-Transcript written on /tmp/tmpne70ve2y/temp.log.
+Output written on /tmp/tmp6weeeruh/temp.pdf (1 page, 12875 bytes).
+Transcript written on /tmp/tmp6weeeruh/temp.log.
+>
+Output written on /tmp/tmpkeiez6hu/temp.pdf (1 page, 12875 bytes).
+Transcript written on /tmp/tmpkeiez6hu/temp.log.
 done with tempfiles
 done with tempfiles
 /home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/transformers/training_args.py:1356: FutureWarning: using `--fsdp_transformer_layer_cls_to_wrap` is deprecated. Use fsdp_config instead 
@@ -85,11 +85,11 @@ done with tempfiles
   warnings.warn(
 /home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
   warnings.warn(msg)
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:09<00:09,  9.85s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:09<00:09,  9.87s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:12<00:00,  5.84s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:12<00:00,  6.44s/it]
-Some weights of TrueReader were not initialized from the model checkpoint at /home/jaded79/visual-check/llama_weights/ and are newly initialized: ['embed_image.resnet.7.0.downsample.1.bias', 'embed_image.resnet.6.2.bn2.weight', 'embed_image.resnet.4.2.bn1.num_batches_tracked', 'embed_image.resnet.6.1.bn2.weight', 'embed_image.resnet.4.2.bn2.running_var', 'embed_image.resnet.5.3.bn1.running_mean', 'embed_image.resnet.4.0.bn1.running_var', 'embed_image.resnet.7.0.downsample.1.weight', 'embed_image.resnet.4.0.bn3.running_var', 'embed_image.resnet.7.1.conv3.weight', 'embed_image.resnet.4.0.conv1.weight', 'embed_image.resnet.5.1.conv1.weight', 'embed_image.resnet.6.3.bn1.weight', 'embed_image.resnet.7.2.bn3.num_batches_tracked', 'embed_image.resnet.4.2.conv3.weight', 'embed_image.resnet.7.2.bn3.weight', 'embed_image.resnet.7.2.bn3.bias', 'embed_image.resnet.6.3.bn2.bias', 'embed_image.resnet.6.0.bn3.weight', 'embed_image.resnet.4.0.bn1.weight', 'embed_image.resnet.6.5.bn3.running_var', 'embed_image.resnet.4.2.bn3.weight', 'embed_image.resnet.7.0.bn2.weight', 'embed_image.resnet.4.2.bn3.bias', 'embed_image.resnet.4.2.bn1.running_var', 'embed_image.resnet.4.2.bn2.running_mean', 'embed_image.resnet.4.0.bn1.bias', 'embed_image.resnet.4.0.downsample.1.running_var', 'embed_image.resnet.6.0.bn1.weight', 'embed_image.resnet.4.0.bn1.num_batches_tracked', 'embed_image.resnet.7.0.downsample.1.num_batches_tracked', 'embed_image.resnet.6.4.bn3.running_mean', 'embed_image.resnet.6.0.downsample.1.running_mean', 'embed_image.resnet.7.2.bn1.running_var', 'embed_image.resnet.7.1.bn1.num_batches_tracked', 'embed_image.resnet.4.0.bn2.weight', 'embed_image.resnet.5.3.conv3.weight', 'embed_image.resnet.6.5.bn2.weight', 'embed_image.resnet.7.0.bn3.bias', 'embed_image.resnet.6.3.bn2.num_batches_tracked', 'embed_image.resnet.7.2.conv1.weight', 'embed_image.resnet.5.2.bn1.bias', 'embed_image.resnet.6.3.bn3.num_batches_tracked', 'embed_image.resnet.5.3.bn1.bias', 'embed_image.resnet.6.2.conv2.weight', 'embed_image.resnet.5.1.bn1.running_mean', 'embed_image.resnet.7.2.bn2.weight', 'embed_image.resnet.4.2.bn3.num_batches_tracked', 'embed_image.resnet.6.4.conv2.weight', 'embed_image.resnet.6.4.bn1.running_mean', 'embed_image.resnet.4.0.downsample.1.bias', 'embed_image.resnet.6.1.conv1.weight', 'embed_image.resnet.6.0.downsample.1.weight', 'embed_image.resnet.7.1.bn1.running_mean', 'embed_image.resnet.6.1.bn2.bias', 'embed_image.resnet.6.5.bn1.running_mean', 'embed_image.resnet.7.1.bn3.weight', 'embed_image.resnet.5.1.bn3.running_mean', 'embed_image.resnet.7.1.conv2.weight', 'embed_image.resnet.7.2.bn1.num_batches_tracked', 'embed_image.resnet.7.2.conv3.weight', 'embed_image.resnet.4.0.conv2.weight', 'embed_image.resnet.6.0.bn1.running_mean', 'embed_image.resnet.4.1.bn3.running_var', 'embed_image.resnet.7.0.bn1.weight', 'embed_image.resnet.7.1.bn2.bias', 'embed_image.resnet.6.4.bn2.running_var', 'embed_image.resnet.6.2.bn3.running_mean', 'embed_image.resnet.6.0.bn3.num_batches_tracked', 'embed_image.resnet.5.3.bn2.running_var', 'embed_image.resnet.7.1.bn2.running_var', 'embed_image.resnet.5.1.bn2.running_mean', 'embed_image.resnet.6.4.bn3.weight', 'embeddings_project.weight', 'embed_image.resnet.5.0.bn1.bias', 'embed_image.resnet.6.4.bn3.num_batches_tracked', 'embed_image.resnet.6.3.bn1.running_mean', 'embed_image.resnet.7.0.bn2.running_var', 'embed_image.resnet.6.1.bn3.num_batches_tracked', 'embed_image.resnet.7.2.bn2.num_batches_tracked', 'embed_image.resnet.4.1.bn1.running_mean', 'embed_image.resnet.5.0.downsample.1.weight', 'embed_image.resnet.5.2.bn1.running_var', 'embed_image.resnet.7.0.bn3.weight', 'embed_image.resnet.7.2.bn1.running_mean', 'embed_image.resnet.6.5.conv1.weight', 'embed_image.resnet.7.2.conv2.weight', 'embed_image.resnet.5.3.bn2.bias', 'embed_image.resnet.4.1.bn1.running_var', 'embed_image.resnet.7.0.conv3.weight', 'embed_image.resnet.5.2.bn3.bias', 'embed_image.resnet.6.4.bn3.bias', 'embed_image.resnet.7.0.bn2.num_batches_tracked', 'embed_image.resnet.6.2.bn2.running_var', 'embed_image.resnet.5.0.bn2.num_batches_tracked', 'embed_image.resnet.5.1.bn1.running_var', 'embeddings_project.bias', 'embed_image.resnet.6.5.bn1.weight', 'embed_image.resnet.7.1.bn3.num_batches_tracked', 'embed_image.resnet.6.0.bn2.running_var', 'embed_image.resnet.6.2.bn3.bias', 'embed_image.resnet.5.1.bn1.num_batches_tracked', 'embed_image.resnet.5.2.bn2.weight', 'embed_image.resnet.6.5.bn1.num_batches_tracked', 'embed_image.resnet.6.4.bn2.num_batches_tracked', 'embed_image.resnet.5.2.bn3.num_batches_tracked', 'embed_image.resnet.6.2.bn3.running_var', 'embed_image.resnet.5.0.downsample.1.num_batches_tracked', 'embed_image.resnet.5.0.bn1.running_var', 'embed_image.resnet.7.0.conv2.weight', 'embed_image.resnet.6.2.bn1.weight', 'embed_image.resnet.5.0.conv2.weight', 'embed_image.resnet.6.2.bn2.bias', 'embed_image.resnet.6.3.bn2.running_mean', 'embed_image.resnet.5.0.bn3.running_mean', 'embed_image.resnet.6.4.bn1.weight', 'embed_image.resnet.5.1.bn3.weight', 'embed_image.resnet.6.3.bn1.running_var', 'embed_image.resnet.5.2.bn3.weight', 'embed_image.resnet.6.0.bn3.bias', 'embed_image.resnet.6.4.bn2.weight', 'embed_image.resnet.7.2.bn1.weight', 'embed_image.resnet.4.1.bn2.running_var', 'embed_image.resnet.6.1.bn3.running_var', 'embed_image.resnet.7.1.bn2.num_batches_tracked', 'embed_image.resnet.1.bias', 'embed_image.resnet.6.0.downsample.1.bias', 'embed_image.resnet.7.1.bn1.weight', 'embed_image.resnet.6.0.bn2.weight', 'embed_image.resnet.5.2.conv3.weight', 'embed_image.resnet.4.0.bn2.bias', 'embed_image.resnet.7.2.bn3.running_var', 'embed_image.resnet.6.5.bn1.running_var', 'embed_image.resnet.5.0.bn2.running_mean', 'embed_image.resnet.6.0.bn2.running_mean', 'embed_image.resnet.5.0.conv1.weight', 'embed_image.resnet.5.0.bn3.num_batches_tracked', 'embed_image.resnet.6.0.bn2.bias', 'embed_image.resnet.4.1.conv2.weight', 'embed_image.resnet.4.0.downsample.1.running_mean', 'embed_image.resnet.5.3.bn3.weight', 'embed_image.resnet.6.0.bn1.num_batches_tracked', 'embed_image.resnet.5.0.bn2.running_var', 'embed_image.resnet.6.0.conv3.weight', 'embed_image.resnet.5.3.bn1.running_var', 'embed_image.resnet.6.0.downsample.1.running_var', 'embed_image.resnet.6.2.bn2.running_mean', 'embed_image.resnet.6.0.bn2.num_batches_tracked', 'embed_image.resnet.7.2.bn3.running_mean', 'embed_image.resnet.4.2.bn3.running_var', 'embed_image.resnet.5.0.conv3.weight', 'embed_image.resnet.7.1.bn2.running_mean', 'embed_image.resnet.4.1.bn1.num_batches_tracked', 'embed_image.resnet.4.2.bn2.bias', 'embed_image.resnet.6.2.conv1.weight', 'embed_image.resnet.5.3.bn3.running_mean', 'embed_image.resnet.5.0.bn1.running_mean', 'embed_image.resnet.4.2.bn1.running_mean', 'embed_image.resnet.4.1.bn3.running_mean', 'embed_image.resnet.5.2.bn2.bias', 'embed_image.resnet.5.2.bn1.running_mean', 'embed_image.resnet.7.0.bn3.running_var', 'embed_image.resnet.5.0.bn1.num_batches_tracked', 'embed_image.resnet.4.0.downsample.1.weight', 'embed_image.resnet.7.2.bn2.bias', 'embed_image.resnet.4.2.conv1.weight', 'embed_image.resnet.7.1.conv1.weight', 'embed_image.resnet.7.1.bn3.running_mean', 'embed_image.resnet.5.1.conv3.weight', 'embed_image.resnet.6.2.bn1.running_mean', 'embed_image.resnet.5.2.conv2.weight', 'embed_image.resnet.7.1.bn2.weight', 'embed_image.resnet.7.0.bn1.bias', 'embed_image.resnet.6.3.conv1.weight', 'embed_image.resnet.5.3.bn2.running_mean', 'embed_image.resnet.4.1.bn2.bias', 'embed_image.resnet.6.2.conv3.weight', 'embed_image.resnet.6.3.conv3.weight', 'embed_image.resnet.6.1.bn1.num_batches_tracked', 'embed_image.resnet.7.0.bn3.num_batches_tracked', 'embed_image.resnet.5.3.bn1.num_batches_tracked', 'embed_image.resnet.5.1.bn3.num_batches_tracked', 'embed_image.resnet.7.1.bn1.running_var', 'embed_image.resnet.7.0.downsample.1.running_mean', 'embed_image.resnet.5.3.bn1.weight', 'embed_image.resnet.5.2.bn3.running_mean', 'embed_image.resnet.6.1.bn2.running_mean', 'embed_image.resnet.4.2.bn1.weight', 'embed_image.resnet.4.1.bn2.weight', 'embed_image.resnet.5.1.conv2.weight', 'embed_image.resnet.4.1.conv1.weight', 'embed_image.resnet.5.3.bn3.num_batches_tracked', 'embed_image.resnet.4.2.bn3.running_mean', 'embed_image.resnet.6.4.conv3.weight', 'embed_image.resnet.4.2.bn2.num_batches_tracked', 'embed_image.resnet.6.0.bn1.bias', 'embed_image.resnet.6.5.bn2.running_mean', 'embed_image.resnet.6.0.bn1.running_var', 'embed_image.resnet.5.1.bn2.running_var', 'embed_image.resnet.4.0.bn2.running_var', 'embed_image.resnet.7.0.bn1.running_mean', 'embed_image.resnet.6.0.conv2.weight', 'embed_image.resnet.4.1.bn1.bias', 'embed_image.resnet.6.4.bn3.running_var', 'embed_image.resnet.6.0.downsample.1.num_batches_tracked', 'embed_image.resnet.5.0.downsample.1.running_mean', 'embed_image.resnet.6.1.bn2.running_var', 'embed_image.resnet.4.0.bn3.weight', 'embed_image.resnet.6.5.bn2.bias', 'embed_image.resnet.5.1.bn3.bias', 'embed_image.resnet.6.0.bn3.running_var', 'embed_image.resnet.7.0.bn3.running_mean', 'embed_image.resnet.5.0.downsample.1.running_var', 'embed_image.resnet.5.3.conv2.weight', 'embed_image.resnet.7.1.bn3.running_var', 'embed_image.resnet.1.weight', 'embed_image.resnet.4.1.bn2.running_mean', 'embed_image.resnet.1.num_batches_tracked', 'embed_image.resnet.1.running_var', 'embed_image.resnet.6.4.conv1.weight', 'embed_image.resnet.6.2.bn1.running_var', 'embed_image.resnet.5.2.bn3.running_var', 'embed_image.resnet.6.1.bn2.num_batches_tracked', 'embed_image.resnet.6.2.bn1.num_batches_tracked', 'embed_image.resnet.5.1.bn2.bias', 'embed_image.resnet.5.3.bn2.weight', 'embed_image.resnet.7.0.bn1.num_batches_tracked', 'embed_image.resnet.1.running_mean', 'embed_image.resnet.5.0.bn2.weight', 'embed_image.resnet.5.2.bn2.running_mean', 'embed_image.resnet.7.0.bn2.bias', 'embed_image.resnet.6.3.conv2.weight', 'embed_image.resnet.4.0.bn1.running_mean', 'embed_image.resnet.5.1.bn3.running_var', 'embed_image.resnet.6.1.bn3.weight', 'embed_image.resnet.6.3.bn3.running_mean', 'embed_image.resnet.6.3.bn1.bias', 'embed_image.resnet.4.0.downsample.0.weight', 'embed_image.resnet.6.2.bn3.weight', 'embed_image.resnet.7.2.bn2.running_var', 'embed_image.resnet.6.1.bn1.weight', 'embed_image.resnet.4.2.bn2.weight', 'embed_image.resnet.4.2.bn1.bias', 'embed_image.resnet.7.0.bn2.running_mean', 'embed_image.resnet.5.2.bn1.num_batches_tracked', 'embed_image.resnet.7.0.conv1.weight', 'embed_image.resnet.6.1.conv2.weight', 'embed_image.resnet.6.3.bn2.running_var', 'embed_image.resnet.6.4.bn2.running_mean', 'embed_image.resnet.7.2.bn2.running_mean', 'embed_image.resnet.6.2.bn2.num_batches_tracked', 'embed_image.resnet.4.0.bn2.num_batches_tracked', 'embed_image.resnet.5.0.downsample.1.bias', 'embed_image.resnet.4.1.bn2.num_batches_tracked', 'embed_image.resnet.7.0.bn1.running_var', 'embed_image.resnet.4.0.bn3.running_mean', 'embed_image.resnet.6.1.bn1.running_mean', 'embed_image.resnet.5.3.bn3.running_var', 'embed_image.resnet.4.0.conv3.weight', 'embed_image.resnet.4.0.bn3.bias', 'embed_image.resnet.6.5.conv2.weight', 'embed_image.resnet.6.1.bn1.running_var', 'embed_image.resnet.6.5.conv3.weight', 'embed_image.resnet.4.0.downsample.1.num_batches_tracked', 'embed_image.resnet.6.5.bn2.num_batches_tracked', 'embed_image.resnet.4.1.bn3.weight', 'embed_image.resnet.6.5.bn3.bias', 'embed_image.resnet.6.0.conv1.weight', 'embed_image.resnet.5.2.bn2.num_batches_tracked', 'embed_image.resnet.6.2.bn3.num_batches_tracked', 'embed_image.resnet.6.1.bn3.bias', 'embed_image.resnet.6.0.bn3.running_mean', 'embed_image.resnet.5.2.bn1.weight', 'embed_image.resnet.6.3.bn3.weight', 'embed_image.resnet.6.4.bn1.bias', 'embed_image.resnet.4.0.bn2.running_mean', 'embed_image.resnet.6.1.conv3.weight', 'embed_image.resnet.6.5.bn2.running_var', 'embed_image.resnet.5.3.bn3.bias', 'embed_image.resnet.5.0.bn3.running_var', 'embed_image.resnet.7.1.bn1.bias', 'embed_image.resnet.6.0.downsample.0.weight', 'embed_image.resnet.5.1.bn2.weight', 'embed_image.resnet.6.4.bn2.bias', 'embed_image.resnet.5.1.bn1.bias', 'embed_image.resnet.6.1.bn1.bias', 'embed_image.resnet.4.1.bn1.weight', 'embed_image.resnet.5.0.bn3.weight', 'embed_image.resnet.5.0.downsample.0.weight', 'embed_image.resnet.6.2.bn1.bias', 'embed_image.resnet.6.1.bn3.running_mean', 'embed_image.resnet.6.4.bn1.num_batches_tracked', 'embed_image.resnet.6.3.bn1.num_batches_tracked', 'embed_image.resnet.6.5.bn3.weight', 'embed_image.resnet.5.0.bn1.weight', 'embed_image.resnet.7.1.bn3.bias', 'embed_image.resnet.5.2.conv1.weight', 'embed_image.resnet.4.1.conv3.weight', 'embed_image.resnet.5.3.conv1.weight', 'embed_image.resnet.5.2.bn2.running_var', 'embed_image.resnet.5.3.bn2.num_batches_tracked', 'embed_image.resnet.6.5.bn3.running_mean', 'embed_image.resnet.6.5.bn1.bias', 'embed_image.resnet.5.0.bn3.bias', 'embed_image.resnet.7.0.downsample.1.running_var', 'embed_image.resnet.6.3.bn2.weight', 'embed_image.resnet.4.0.bn3.num_batches_tracked', 'embed_image.resnet.6.5.bn3.num_batches_tracked', 'embed_image.resnet.6.3.bn3.running_var', 'embed_image.resnet.4.1.bn3.num_batches_tracked', 'embed_image.resnet.5.1.bn1.weight', 'embed_image.resnet.6.3.bn3.bias', 'embed_image.resnet.7.0.downsample.0.weight', 'embed_image.resnet.4.1.bn3.bias', 'embed_image.resnet.4.2.conv2.weight', 'embed_image.resnet.5.0.bn2.bias', 'embed_image.resnet.5.1.bn2.num_batches_tracked', 'embed_image.resnet.0.weight', 'embed_image.resnet.6.4.bn1.running_var', 'embed_image.resnet.7.2.bn1.bias']
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:14<00:14, 14.28s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:14<00:14, 14.28s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:19<00:00,  8.67s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:19<00:00,  9.51s/it]
+Some weights of TrueReader were not initialized from the model checkpoint at /home/jaded79/visual-check/llama_weights/ and are newly initialized: ['embed_image.resnet.7.1.conv3.weight', 'embed_image.resnet.7.0.bn3.num_batches_tracked', 'embed_image.resnet.5.0.downsample.1.num_batches_tracked', 'embed_image.resnet.6.5.bn3.running_var', 'embed_image.resnet.6.1.bn2.running_var', 'embed_image.resnet.4.2.conv3.weight', 'embed_image.resnet.1.bias', 'embed_image.resnet.5.1.bn1.weight', 'embed_image.resnet.4.1.bn2.num_batches_tracked', 'embed_image.resnet.6.3.bn3.running_mean', 'embed_image.resnet.6.5.conv2.weight', 'embed_image.resnet.5.0.bn1.running_mean', 'embed_image.resnet.7.1.bn2.running_var', 'embed_image.resnet.6.1.bn1.num_batches_tracked', 'embed_image.resnet.7.1.bn2.weight', 'embed_image.resnet.4.1.conv2.weight', 'embed_image.resnet.5.2.bn2.weight', 'embed_image.resnet.4.0.conv1.weight', 'embed_image.resnet.7.1.conv2.weight', 'embed_image.resnet.6.1.bn1.running_mean', 'embed_image.resnet.7.1.bn3.weight', 'embed_image.resnet.5.3.bn2.running_var', 'embed_image.resnet.7.2.bn1.num_batches_tracked', 'embed_image.resnet.5.2.bn2.bias', 'embed_image.resnet.6.2.bn2.bias', 'embed_image.resnet.6.3.bn3.running_var', 'embed_image.resnet.7.1.bn1.weight', 'embed_image.resnet.5.1.bn3.bias', 'embed_image.resnet.6.2.bn2.num_batches_tracked', 'embed_image.resnet.5.2.conv3.weight', 'embed_image.resnet.5.0.bn3.running_mean', 'embed_image.resnet.4.0.bn2.running_var', 'embed_image.resnet.5.3.bn3.running_mean', 'embed_image.resnet.6.2.bn1.weight', 'embed_image.resnet.4.1.bn1.running_var', 'embed_image.resnet.6.4.bn3.bias', 'embed_image.resnet.5.2.bn2.running_var', 'embed_image.resnet.6.3.bn1.running_mean', 'embed_image.resnet.6.1.conv1.weight', 'embed_image.resnet.4.0.bn2.weight', 'embed_image.resnet.6.4.bn3.running_var', 'embed_image.resnet.7.2.bn2.num_batches_tracked', 'embed_image.resnet.7.0.downsample.1.bias', 'embed_image.resnet.7.2.bn2.weight', 'embed_image.resnet.5.0.conv1.weight', 'embed_image.resnet.5.0.bn1.weight', 'embed_image.resnet.1.running_mean', 'embed_image.resnet.6.4.conv1.weight', 'embed_image.resnet.5.2.bn1.bias', 'embed_image.resnet.6.3.conv1.weight', 'embed_image.resnet.7.2.bn1.weight', 'embeddings_project.weight', 'embed_image.resnet.5.2.bn2.running_mean', 'embed_image.resnet.7.0.bn2.running_var', 'embed_image.resnet.4.2.bn1.bias', 'embed_image.resnet.4.0.downsample.1.weight', 'embed_image.resnet.5.2.bn1.running_mean', 'embed_image.resnet.6.4.bn1.num_batches_tracked', 'embed_image.resnet.7.2.bn2.running_var', 'embed_image.resnet.4.0.bn1.weight', 'embed_image.resnet.6.5.bn1.weight', 'embed_image.resnet.5.2.bn3.bias', 'embed_image.resnet.7.1.bn1.running_var', 'embed_image.resnet.6.0.bn3.num_batches_tracked', 'embed_image.resnet.6.5.bn3.weight', 'embed_image.resnet.4.2.bn3.running_mean', 'embed_image.resnet.7.0.downsample.0.weight', 'embed_image.resnet.7.1.bn1.running_mean', 'embed_image.resnet.6.5.bn3.num_batches_tracked', 'embed_image.resnet.4.0.bn1.num_batches_tracked', 'embed_image.resnet.4.2.conv1.weight', 'embed_image.resnet.4.1.bn3.bias', 'embed_image.resnet.6.5.bn1.num_batches_tracked', 'embed_image.resnet.6.3.bn1.bias', 'embed_image.resnet.7.0.bn3.weight', 'embed_image.resnet.4.1.conv3.weight', 'embed_image.resnet.7.1.bn3.bias', 'embed_image.resnet.6.4.conv2.weight', 'embed_image.resnet.6.0.conv3.weight', 'embed_image.resnet.6.2.conv1.weight', 'embed_image.resnet.4.1.bn1.weight', 'embed_image.resnet.5.3.bn1.running_mean', 'embed_image.resnet.6.3.conv2.weight', 'embed_image.resnet.4.1.bn2.running_var', 'embed_image.resnet.5.1.bn1.bias', 'embed_image.resnet.5.0.bn1.bias', 'embed_image.resnet.7.2.bn3.running_mean', 'embed_image.resnet.6.3.bn2.num_batches_tracked', 'embed_image.resnet.6.0.bn2.running_mean', 'embed_image.resnet.6.4.bn2.weight', 'embed_image.resnet.4.1.bn1.running_mean', 'embed_image.resnet.6.0.bn1.running_mean', 'embed_image.resnet.4.1.bn3.running_var', 'embed_image.resnet.6.4.bn1.bias', 'embed_image.resnet.5.3.bn1.weight', 'embed_image.resnet.5.0.conv2.weight', 'embed_image.resnet.6.1.bn3.bias', 'embed_image.resnet.5.1.bn3.running_mean', 'embed_image.resnet.6.3.conv3.weight', 'embed_image.resnet.4.1.bn2.running_mean', 'embed_image.resnet.6.0.bn1.running_var', 'embed_image.resnet.6.0.bn1.weight', 'embed_image.resnet.5.3.bn2.bias', 'embed_image.resnet.6.3.bn2.running_var', 'embed_image.resnet.4.1.bn1.num_batches_tracked', 'embed_image.resnet.4.0.bn3.running_var', 'embed_image.resnet.4.2.bn2.bias', 'embed_image.resnet.5.1.conv3.weight', 'embed_image.resnet.4.0.downsample.1.bias', 'embed_image.resnet.4.0.downsample.1.num_batches_tracked', 'embed_image.resnet.7.1.bn2.bias', 'embed_image.resnet.5.1.conv2.weight', 'embed_image.resnet.4.0.bn2.num_batches_tracked', 'embed_image.resnet.7.1.bn3.running_var', 'embed_image.resnet.6.4.bn1.running_mean', 'embed_image.resnet.6.3.bn2.bias', 'embed_image.resnet.7.2.bn3.running_var', 'embed_image.resnet.4.0.downsample.1.running_mean', 'embed_image.resnet.7.2.bn3.bias', 'embed_image.resnet.5.0.bn3.num_batches_tracked', 'embed_image.resnet.6.3.bn2.weight', 'embed_image.resnet.5.3.bn3.num_batches_tracked', 'embed_image.resnet.6.0.bn1.bias', 'embed_image.resnet.5.0.bn2.num_batches_tracked', 'embed_image.resnet.6.0.downsample.1.weight', 'embed_image.resnet.6.1.bn3.num_batches_tracked', 'embed_image.resnet.7.2.bn1.running_var', 'embed_image.resnet.4.0.downsample.0.weight', 'embed_image.resnet.6.1.bn2.weight', 'embed_image.resnet.7.0.bn1.num_batches_tracked', 'embed_image.resnet.5.0.bn3.weight', 'embed_image.resnet.5.1.conv1.weight', 'embed_image.resnet.6.5.bn2.running_mean', 'embed_image.resnet.5.1.bn3.running_var', 'embed_image.resnet.7.0.bn1.weight', 'embed_image.resnet.7.1.bn1.num_batches_tracked', 'embed_image.resnet.6.5.conv3.weight', 'embed_image.resnet.1.num_batches_tracked', 'embed_image.resnet.5.1.bn2.weight', 'embed_image.resnet.6.4.bn3.running_mean', 'embed_image.resnet.4.0.bn2.running_mean', 'embed_image.resnet.7.0.conv1.weight', 'embed_image.resnet.5.2.bn2.num_batches_tracked', 'embed_image.resnet.7.0.downsample.1.num_batches_tracked', 'embed_image.resnet.6.5.bn3.running_mean', 'embed_image.resnet.4.0.bn1.running_mean', 'embed_image.resnet.4.1.bn3.running_mean', 'embed_image.resnet.4.0.downsample.1.running_var', 'embed_image.resnet.7.1.conv1.weight', 'embed_image.resnet.4.1.bn3.num_batches_tracked', 'embed_image.resnet.6.4.bn2.running_mean', 'embed_image.resnet.6.2.bn2.weight', 'embed_image.resnet.4.2.bn3.weight', 'embed_image.resnet.6.4.bn1.weight', 'embed_image.resnet.6.3.bn3.num_batches_tracked', 'embed_image.resnet.6.0.bn2.running_var', 'embed_image.resnet.5.0.downsample.1.running_mean', 'embed_image.resnet.6.1.bn1.running_var', 'embed_image.resnet.6.0.bn1.num_batches_tracked', 'embed_image.resnet.6.0.bn2.bias', 'embed_image.resnet.6.0.downsample.0.weight', 'embed_image.resnet.6.1.bn3.running_var', 'embed_image.resnet.6.2.bn2.running_mean', 'embed_image.resnet.6.0.downsample.1.num_batches_tracked', 'embed_image.resnet.6.1.conv3.weight', 'embed_image.resnet.6.1.bn3.running_mean', 'embed_image.resnet.6.5.bn1.running_mean', 'embed_image.resnet.7.2.bn2.bias', 'embed_image.resnet.7.0.bn3.bias', 'embed_image.resnet.5.0.downsample.0.weight', 'embed_image.resnet.5.1.bn2.running_mean', 'embed_image.resnet.5.0.conv3.weight', 'embed_image.resnet.7.0.conv2.weight', 'embed_image.resnet.4.2.bn2.running_mean', 'embed_image.resnet.7.0.bn1.bias', 'embed_image.resnet.6.4.conv3.weight', 'embed_image.resnet.6.0.bn3.bias', 'embed_image.resnet.4.0.conv3.weight', 'embed_image.resnet.5.2.bn3.running_var', 'embed_image.resnet.7.0.downsample.1.weight', 'embed_image.resnet.7.2.bn1.bias', 'embed_image.resnet.7.2.conv2.weight', 'embed_image.resnet.5.0.downsample.1.running_var', 'embed_image.resnet.5.0.bn3.running_var', 'embed_image.resnet.6.5.bn2.bias', 'embed_image.resnet.5.2.conv1.weight', 'embed_image.resnet.5.3.bn2.num_batches_tracked', 'embed_image.resnet.6.3.bn2.running_mean', 'embed_image.resnet.6.0.bn3.weight', 'embed_image.resnet.4.0.bn3.num_batches_tracked', 'embed_image.resnet.6.4.bn3.weight', 'embed_image.resnet.6.5.bn1.bias', 'embed_image.resnet.5.2.bn1.weight', 'embed_image.resnet.5.1.bn1.num_batches_tracked', 'embed_image.resnet.7.2.conv3.weight', 'embed_image.resnet.7.2.bn3.weight', 'embed_image.resnet.4.1.bn2.bias', 'embed_image.resnet.5.1.bn3.weight', 'embed_image.resnet.5.2.bn1.num_batches_tracked', 'embed_image.resnet.6.0.downsample.1.running_mean', 'embed_image.resnet.4.1.bn3.weight', 'embed_image.resnet.6.5.bn1.running_var', 'embed_image.resnet.6.0.bn2.num_batches_tracked', 'embed_image.resnet.4.0.bn1.running_var', 'embed_image.resnet.7.0.downsample.1.running_mean', 'embed_image.resnet.6.2.bn3.bias', 'embed_image.resnet.6.1.bn2.running_mean', 'embed_image.resnet.4.0.conv2.weight', 'embed_image.resnet.6.2.bn1.bias', 'embed_image.resnet.7.2.bn1.running_mean', 'embed_image.resnet.6.4.bn2.num_batches_tracked', 'embed_image.resnet.6.2.bn3.running_mean', 'embed_image.resnet.6.0.conv2.weight', 'embed_image.resnet.6.2.bn1.running_var', 'embed_image.resnet.7.2.bn2.running_mean', 'embed_image.resnet.5.0.bn1.running_var', 'embed_image.resnet.5.1.bn3.num_batches_tracked', 'embed_image.resnet.5.3.bn3.running_var', 'embed_image.resnet.5.0.downsample.1.weight', 'embed_image.resnet.4.2.conv2.weight', 'embed_image.resnet.6.2.bn1.num_batches_tracked', 'embed_image.resnet.4.0.bn1.bias', 'embed_image.resnet.5.2.bn1.running_var', 'embed_image.resnet.4.2.bn2.running_var', 'embed_image.resnet.6.0.conv1.weight', 'embed_image.resnet.4.0.bn3.running_mean', 'embed_image.resnet.6.3.bn3.bias', 'embed_image.resnet.5.0.bn2.weight', 'embed_image.resnet.4.2.bn2.num_batches_tracked', 'embed_image.resnet.6.5.bn3.bias', 'embed_image.resnet.6.1.bn3.weight', 'embed_image.resnet.6.4.bn2.running_var', 'embeddings_project.bias', 'embed_image.resnet.7.2.conv1.weight', 'embed_image.resnet.6.1.bn2.num_batches_tracked', 'embed_image.resnet.4.2.bn1.weight', 'embed_image.resnet.5.1.bn1.running_var', 'embed_image.resnet.5.0.bn1.num_batches_tracked', 'embed_image.resnet.7.0.conv3.weight', 'embed_image.resnet.5.3.conv1.weight', 'embed_image.resnet.5.3.bn1.bias', 'embed_image.resnet.5.3.bn1.running_var', 'embed_image.resnet.4.2.bn3.num_batches_tracked', 'embed_image.resnet.5.3.conv2.weight', 'embed_image.resnet.5.1.bn2.running_var', 'embed_image.resnet.4.2.bn3.bias', 'embed_image.resnet.5.0.bn3.bias', 'embed_image.resnet.7.1.bn3.running_mean', 'embed_image.resnet.5.1.bn2.bias', 'embed_image.resnet.5.0.downsample.1.bias', 'embed_image.resnet.4.1.bn1.bias', 'embed_image.resnet.0.weight', 'embed_image.resnet.5.0.bn2.bias', 'embed_image.resnet.7.0.bn2.num_batches_tracked', 'embed_image.resnet.5.2.bn3.running_mean', 'embed_image.resnet.4.2.bn1.running_var', 'embed_image.resnet.5.0.bn2.running_mean', 'embed_image.resnet.4.1.conv1.weight', 'embed_image.resnet.4.2.bn3.running_var', 'embed_image.resnet.6.2.bn3.num_batches_tracked', 'embed_image.resnet.7.1.bn2.running_mean', 'embed_image.resnet.4.2.bn2.weight', 'embed_image.resnet.4.0.bn3.weight', 'embed_image.resnet.6.2.conv2.weight', 'embed_image.resnet.7.0.bn1.running_mean', 'embed_image.resnet.4.2.bn1.num_batches_tracked', 'embed_image.resnet.7.1.bn2.num_batches_tracked', 'embed_image.resnet.6.5.conv1.weight', 'embed_image.resnet.5.3.bn2.weight', 'embed_image.resnet.6.2.bn3.running_var', 'embed_image.resnet.7.2.bn3.num_batches_tracked', 'embed_image.resnet.5.2.bn3.weight', 'embed_image.resnet.6.4.bn3.num_batches_tracked', 'embed_image.resnet.4.2.bn1.running_mean', 'embed_image.resnet.7.1.bn1.bias', 'embed_image.resnet.7.0.bn3.running_mean', 'embed_image.resnet.6.5.bn2.num_batches_tracked', 'embed_image.resnet.5.2.conv2.weight', 'embed_image.resnet.6.5.bn2.weight', 'embed_image.resnet.6.4.bn2.bias', 'embed_image.resnet.4.1.bn2.weight', 'embed_image.resnet.6.3.bn1.num_batches_tracked', 'embed_image.resnet.6.1.bn1.weight', 'embed_image.resnet.7.0.downsample.1.running_var', 'embed_image.resnet.5.0.bn2.running_var', 'embed_image.resnet.6.0.downsample.1.running_var', 'embed_image.resnet.5.3.bn1.num_batches_tracked', 'embed_image.resnet.1.weight', 'embed_image.resnet.7.0.bn2.bias', 'embed_image.resnet.1.running_var', 'embed_image.resnet.6.2.bn2.running_var', 'embed_image.resnet.5.3.bn2.running_mean', 'embed_image.resnet.6.3.bn3.weight', 'embed_image.resnet.6.4.bn1.running_var', 'embed_image.resnet.6.0.downsample.1.bias', 'embed_image.resnet.6.2.conv3.weight', 'embed_image.resnet.6.3.bn1.running_var', 'embed_image.resnet.6.3.bn1.weight', 'embed_image.resnet.6.0.bn2.weight', 'embed_image.resnet.6.0.bn3.running_var', 'embed_image.resnet.5.1.bn2.num_batches_tracked', 'embed_image.resnet.4.0.bn2.bias', 'embed_image.resnet.7.0.bn3.running_var', 'embed_image.resnet.6.1.conv2.weight', 'embed_image.resnet.6.1.bn2.bias', 'embed_image.resnet.5.2.bn3.num_batches_tracked', 'embed_image.resnet.5.3.bn3.weight', 'embed_image.resnet.6.1.bn1.bias', 'embed_image.resnet.4.0.bn3.bias', 'embed_image.resnet.7.0.bn2.running_mean', 'embed_image.resnet.7.0.bn2.weight', 'embed_image.resnet.7.0.bn1.running_var', 'embed_image.resnet.5.3.bn3.bias', 'embed_image.resnet.5.3.conv3.weight', 'embed_image.resnet.6.2.bn1.running_mean', 'embed_image.resnet.6.5.bn2.running_var', 'embed_image.resnet.6.2.bn3.weight', 'embed_image.resnet.6.0.bn3.running_mean', 'embed_image.resnet.7.1.bn3.num_batches_tracked', 'embed_image.resnet.5.1.bn1.running_mean']
 You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
-Loading checkpoint shards: 100%|██████████| 2/2 [00:12<00:00,  5.84s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:12<00:00,  6.44s/it]
-Some weights of TrueReader were not initialized from the model checkpoint at /home/jaded79/visual-check/llama_weights/ and are newly initialized: ['embed_image.resnet.6.2.conv3.weight', 'embed_image.resnet.5.2.bn1.running_var', 'embed_image.resnet.5.0.bn2.running_mean', 'embed_image.resnet.5.2.bn2.num_batches_tracked', 'embed_image.resnet.7.0.bn2.bias', 'embed_image.resnet.4.0.bn3.running_var', 'embed_image.resnet.7.1.bn1.running_mean', 'embed_image.resnet.6.3.bn3.running_mean', 'embed_image.resnet.5.3.bn2.running_var', 'embed_image.resnet.7.0.bn3.num_batches_tracked', 'embed_image.resnet.4.2.bn3.weight', 'embed_image.resnet.6.0.downsample.1.bias', 'embed_image.resnet.4.0.downsample.1.running_var', 'embed_image.resnet.6.3.bn3.num_batches_tracked', 'embed_image.resnet.7.0.conv2.weight', 'embed_image.resnet.6.0.bn2.running_var', 'embed_image.resnet.4.0.bn2.bias', 'embed_image.resnet.7.2.bn1.running_var', 'embed_image.resnet.6.2.bn3.running_var', 'embed_image.resnet.7.2.bn3.bias', 'embed_image.resnet.6.1.conv1.weight', 'embed_image.resnet.7.2.bn2.bias', 'embed_image.resnet.7.2.bn2.running_var', 'embed_image.resnet.6.2.conv1.weight', 'embed_image.resnet.5.1.bn3.bias', 'embed_image.resnet.6.4.bn1.weight', 'embed_image.resnet.6.3.conv3.weight', 'embed_image.resnet.6.5.bn2.running_mean', 'embed_image.resnet.6.2.conv2.weight', 'embed_image.resnet.6.5.bn1.weight', 'embed_image.resnet.1.running_mean', 'embed_image.resnet.6.5.bn1.running_var', 'embed_image.resnet.4.2.conv3.weight', 'embed_image.resnet.6.2.bn2.running_mean', 'embed_image.resnet.6.0.bn2.running_mean', 'embed_image.resnet.6.1.bn1.bias', 'embed_image.resnet.7.0.conv1.weight', 'embed_image.resnet.6.0.conv3.weight', 'embed_image.resnet.6.2.bn1.num_batches_tracked', 'embed_image.resnet.6.2.bn1.bias', 'embed_image.resnet.6.1.bn3.num_batches_tracked', 'embed_image.resnet.4.0.downsample.1.running_mean', 'embed_image.resnet.6.0.bn3.running_mean', 'embed_image.resnet.5.3.bn2.num_batches_tracked', 'embed_image.resnet.5.3.bn1.bias', 'embed_image.resnet.5.2.bn2.bias', 'embed_image.resnet.4.0.bn2.running_mean', 'embed_image.resnet.6.2.bn3.weight', 'embed_image.resnet.5.3.bn2.running_mean', 'embed_image.resnet.6.5.bn3.running_var', 'embed_image.resnet.4.2.conv2.weight', 'embed_image.resnet.4.1.bn3.weight', 'embeddings_project.weight', 'embed_image.resnet.5.3.conv1.weight', 'embed_image.resnet.6.0.bn3.num_batches_tracked', 'embed_image.resnet.7.0.downsample.1.num_batches_tracked', 'embed_image.resnet.4.0.bn1.bias', 'embed_image.resnet.7.0.bn3.weight', 'embed_image.resnet.6.0.bn3.running_var', 'embed_image.resnet.6.4.conv3.weight', 'embed_image.resnet.4.0.downsample.1.weight', 'embed_image.resnet.6.0.downsample.1.num_batches_tracked', 'embed_image.resnet.6.0.bn1.weight', 'embed_image.resnet.6.2.bn1.running_mean', 'embed_image.resnet.6.4.bn1.running_var', 'embed_image.resnet.7.2.bn1.weight', 'embed_image.resnet.5.1.conv1.weight', 'embed_image.resnet.5.3.bn1.num_batches_tracked', 'embed_image.resnet.6.1.bn2.num_batches_tracked', 'embed_image.resnet.4.1.bn3.bias', 'embed_image.resnet.6.5.bn2.bias', 'embed_image.resnet.6.5.conv1.weight', 'embed_image.resnet.7.1.bn2.num_batches_tracked', 'embed_image.resnet.5.3.bn1.running_mean', 'embed_image.resnet.4.0.conv1.weight', 'embed_image.resnet.6.5.bn1.running_mean', 'embed_image.resnet.7.0.bn1.weight', 'embed_image.resnet.7.2.bn2.running_mean', 'embed_image.resnet.4.1.bn3.running_mean', 'embed_image.resnet.4.2.bn3.bias', 'embed_image.resnet.4.1.bn1.weight', 'embed_image.resnet.4.2.bn2.num_batches_tracked', 'embed_image.resnet.6.1.conv3.weight', 'embed_image.resnet.4.1.bn2.bias', 'embed_image.resnet.4.1.bn1.running_mean', 'embed_image.resnet.1.running_var', 'embed_image.resnet.6.2.bn2.weight', 'embed_image.resnet.5.1.bn2.running_mean', 'embed_image.resnet.6.4.bn3.running_mean', 'embed_image.resnet.4.1.bn1.num_batches_tracked', 'embed_image.resnet.5.0.bn3.running_var', 'embed_image.resnet.4.1.bn2.num_batches_tracked', 'embed_image.resnet.5.3.conv3.weight', 'embed_image.resnet.7.0.bn3.bias', 'embed_image.resnet.6.4.bn1.running_mean', 'embed_image.resnet.7.0.bn2.weight', 'embed_image.resnet.6.1.bn2.running_mean', 'embed_image.resnet.6.2.bn2.running_var', 'embed_image.resnet.4.1.conv1.weight', 'embed_image.resnet.6.0.bn1.bias', 'embed_image.resnet.5.3.bn3.num_batches_tracked', 'embed_image.resnet.6.0.conv2.weight', 'embed_image.resnet.4.0.bn1.running_var', 'embed_image.resnet.5.0.bn2.bias', 'embed_image.resnet.4.0.downsample.0.weight', 'embeddings_project.bias', 'embed_image.resnet.6.3.bn1.running_mean', 'embed_image.resnet.4.2.bn1.weight', 'embed_image.resnet.6.3.bn3.running_var', 'embed_image.resnet.6.5.bn3.bias', 'embed_image.resnet.5.1.bn1.running_mean', 'embed_image.resnet.6.3.conv2.weight', 'embed_image.resnet.5.3.bn3.bias', 'embed_image.resnet.5.2.bn1.running_mean', 'embed_image.resnet.5.0.bn1.num_batches_tracked', 'embed_image.resnet.4.1.bn1.running_var', 'embed_image.resnet.7.1.bn1.weight', 'embed_image.resnet.5.2.bn2.running_mean', 'embed_image.resnet.6.5.bn2.running_var', 'embed_image.resnet.5.1.bn2.running_var', 'embed_image.resnet.6.2.bn2.bias', 'embed_image.resnet.6.2.bn1.weight', 'embed_image.resnet.5.3.conv2.weight', 'embed_image.resnet.0.weight', 'embed_image.resnet.7.2.bn1.running_mean', 'embed_image.resnet.5.1.bn1.running_var', 'embed_image.resnet.7.1.bn3.bias', 'embed_image.resnet.4.2.conv1.weight', 'embed_image.resnet.5.1.bn1.num_batches_tracked', 'embed_image.resnet.4.0.bn3.weight', 'embed_image.resnet.4.2.bn3.running_mean', 'embed_image.resnet.5.0.downsample.1.bias', 'embed_image.resnet.5.3.bn2.weight', 'embed_image.resnet.7.2.bn2.num_batches_tracked', 'embed_image.resnet.4.0.bn3.running_mean', 'embed_image.resnet.7.0.bn1.running_var', 'embed_image.resnet.7.2.conv1.weight', 'embed_image.resnet.6.4.conv1.weight', 'embed_image.resnet.6.0.bn3.weight', 'embed_image.resnet.5.3.bn3.running_mean', 'embed_image.resnet.7.0.bn2.num_batches_tracked', 'embed_image.resnet.6.4.bn1.bias', 'embed_image.resnet.5.0.bn1.running_mean', 'embed_image.resnet.6.1.bn2.bias', 'embed_image.resnet.7.0.downsample.1.running_mean', 'embed_image.resnet.6.0.bn1.num_batches_tracked', 'embed_image.resnet.7.0.bn3.running_var', 'embed_image.resnet.7.0.downsample.0.weight', 'embed_image.resnet.5.3.bn3.running_var', 'embed_image.resnet.4.0.bn2.running_var', 'embed_image.resnet.6.4.bn2.bias', 'embed_image.resnet.5.0.bn2.num_batches_tracked', 'embed_image.resnet.7.2.conv2.weight', 'embed_image.resnet.4.0.bn1.running_mean', 'embed_image.resnet.6.5.bn2.weight', 'embed_image.resnet.5.2.bn3.running_mean', 'embed_image.resnet.5.3.bn2.bias', 'embed_image.resnet.6.4.bn1.num_batches_tracked', 'embed_image.resnet.6.4.bn2.weight', 'embed_image.resnet.5.2.bn3.num_batches_tracked', 'embed_image.resnet.7.1.conv2.weight', 'embed_image.resnet.4.2.bn2.running_mean', 'embed_image.resnet.6.1.bn3.running_var', 'embed_image.resnet.7.0.bn1.running_mean', 'embed_image.resnet.6.1.bn2.weight', 'embed_image.resnet.4.0.downsample.1.num_batches_tracked', 'embed_image.resnet.7.1.bn3.weight', 'embed_image.resnet.5.2.bn1.weight', 'embed_image.resnet.5.0.conv2.weight', 'embed_image.resnet.6.1.bn3.bias', 'embed_image.resnet.6.4.bn3.weight', 'embed_image.resnet.5.0.bn2.weight', 'embed_image.resnet.5.0.downsample.0.weight', 'embed_image.resnet.5.0.downsample.1.running_mean', 'embed_image.resnet.6.3.bn2.bias', 'embed_image.resnet.6.4.bn2.running_mean', 'embed_image.resnet.6.1.bn1.weight', 'embed_image.resnet.5.0.bn1.running_var', 'embed_image.resnet.4.0.bn2.num_batches_tracked', 'embed_image.resnet.5.1.bn3.running_mean', 'embed_image.resnet.6.0.downsample.1.running_mean', 'embed_image.resnet.6.1.bn1.running_mean', 'embed_image.resnet.6.5.bn3.num_batches_tracked', 'embed_image.resnet.6.2.bn3.num_batches_tracked', 'embed_image.resnet.5.2.bn3.running_var', 'embed_image.resnet.6.5.conv3.weight', 'embed_image.resnet.5.1.conv3.weight', 'embed_image.resnet.4.2.bn1.num_batches_tracked', 'embed_image.resnet.6.0.bn2.weight', 'embed_image.resnet.5.3.bn1.running_var', 'embed_image.resnet.7.1.bn1.num_batches_tracked', 'embed_image.resnet.4.0.bn2.weight', 'embed_image.resnet.6.0.bn1.running_var', 'embed_image.resnet.7.2.bn3.num_batches_tracked', 'embed_image.resnet.6.3.bn3.bias', 'embed_image.resnet.7.0.downsample.1.bias', 'embed_image.resnet.4.0.conv2.weight', 'embed_image.resnet.5.0.conv1.weight', 'embed_image.resnet.7.2.bn3.weight', 'embed_image.resnet.4.0.bn1.num_batches_tracked', 'embed_image.resnet.5.2.bn3.bias', 'embed_image.resnet.6.3.bn3.weight', 'embed_image.resnet.4.2.bn1.running_mean', 'embed_image.resnet.4.2.bn1.running_var', 'embed_image.resnet.6.0.downsample.0.weight', 'embed_image.resnet.4.0.downsample.1.bias', 'embed_image.resnet.5.1.bn3.weight', 'embed_image.resnet.5.0.bn1.weight', 'embed_image.resnet.6.0.bn3.bias', 'embed_image.resnet.6.4.bn2.num_batches_tracked', 'embed_image.resnet.7.2.bn3.running_var', 'embed_image.resnet.7.0.bn2.running_var', 'embed_image.resnet.5.1.bn2.weight', 'embed_image.resnet.7.1.bn3.running_var', 'embed_image.resnet.6.0.downsample.1.weight', 'embed_image.resnet.7.1.bn3.running_mean', 'embed_image.resnet.5.0.bn3.weight', 'embed_image.resnet.4.1.bn2.running_mean', 'embed_image.resnet.5.0.bn3.bias', 'embed_image.resnet.7.1.bn1.running_var', 'embed_image.resnet.5.2.bn3.weight', 'embed_image.resnet.5.1.bn2.num_batches_tracked', 'embed_image.resnet.7.2.bn1.bias', 'embed_image.resnet.6.1.bn3.weight', 'embed_image.resnet.5.0.downsample.1.num_batches_tracked', 'embed_image.resnet.7.1.bn2.bias', 'embed_image.resnet.6.3.conv1.weight', 'embed_image.resnet.6.5.bn3.running_mean', 'embed_image.resnet.6.0.downsample.1.running_var', 'embed_image.resnet.7.0.bn3.running_mean', 'embed_image.resnet.5.1.conv2.weight', 'embed_image.resnet.7.1.conv3.weight', 'embed_image.resnet.1.weight', 'embed_image.resnet.6.1.bn1.num_batches_tracked', 'embed_image.resnet.5.1.bn3.running_var', 'embed_image.resnet.5.2.conv2.weight', 'embed_image.resnet.6.0.bn1.running_mean', 'embed_image.resnet.5.0.bn3.num_batches_tracked', 'embed_image.resnet.4.1.conv3.weight', 'embed_image.resnet.6.4.conv2.weight', 'embed_image.resnet.6.5.bn3.weight', 'embed_image.resnet.6.3.bn1.running_var', 'embed_image.resnet.6.3.bn1.weight', 'embed_image.resnet.5.0.bn2.running_var', 'embed_image.resnet.6.2.bn3.bias', 'embed_image.resnet.5.0.downsample.1.running_var', 'embed_image.resnet.4.1.bn3.num_batches_tracked', 'embed_image.resnet.7.0.downsample.1.weight', 'embed_image.resnet.6.4.bn3.running_var', 'embed_image.resnet.5.1.bn2.bias', 'embed_image.resnet.4.2.bn2.weight', 'embed_image.resnet.5.0.bn3.running_mean', 'embed_image.resnet.7.2.bn1.num_batches_tracked', 'embed_image.resnet.7.1.bn3.num_batches_tracked', 'embed_image.resnet.5.2.conv3.weight', 'embed_image.resnet.5.1.bn1.weight', 'embed_image.resnet.4.2.bn2.running_var', 'embed_image.resnet.5.2.bn2.weight', 'embed_image.resnet.5.1.bn1.bias', 'embed_image.resnet.6.5.conv2.weight', 'embed_image.resnet.5.2.conv1.weight', 'embed_image.resnet.6.2.bn1.running_var', 'embed_image.resnet.6.3.bn1.bias', 'embed_image.resnet.7.1.bn2.weight', 'embed_image.resnet.7.1.bn2.running_mean', 'embed_image.resnet.4.2.bn2.bias', 'embed_image.resnet.6.3.bn1.num_batches_tracked', 'embed_image.resnet.4.0.bn3.num_batches_tracked', 'embed_image.resnet.5.1.bn3.num_batches_tracked', 'embed_image.resnet.6.2.bn2.num_batches_tracked', 'embed_image.resnet.7.0.bn2.running_mean', 'embed_image.resnet.7.0.bn1.bias', 'embed_image.resnet.5.3.bn3.weight', 'embed_image.resnet.6.0.bn2.num_batches_tracked', 'embed_image.resnet.4.1.bn2.weight', 'embed_image.resnet.6.5.bn1.bias', 'embed_image.resnet.6.2.bn3.running_mean', 'embed_image.resnet.4.0.bn3.bias', 'embed_image.resnet.1.bias', 'embed_image.resnet.5.3.bn1.weight', 'embed_image.resnet.7.1.bn2.running_var', 'embed_image.resnet.6.1.bn1.running_var', 'embed_image.resnet.6.0.bn2.bias', 'embed_image.resnet.5.2.bn1.num_batches_tracked', 'embed_image.resnet.5.0.conv3.weight', 'embed_image.resnet.5.0.downsample.1.weight', 'embed_image.resnet.6.3.bn2.num_batches_tracked', 'embed_image.resnet.6.1.bn3.running_mean', 'embed_image.resnet.6.0.conv1.weight', 'embed_image.resnet.6.5.bn2.num_batches_tracked', 'embed_image.resnet.4.0.conv3.weight', 'embed_image.resnet.4.1.bn1.bias', 'embed_image.resnet.7.0.bn1.num_batches_tracked', 'embed_image.resnet.6.1.bn2.running_var', 'embed_image.resnet.7.1.bn1.bias', 'embed_image.resnet.4.1.conv2.weight', 'embed_image.resnet.4.2.bn1.bias', 'embed_image.resnet.6.4.bn2.running_var', 'embed_image.resnet.4.2.bn3.num_batches_tracked', 'embed_image.resnet.6.4.bn3.num_batches_tracked', 'embed_image.resnet.4.2.bn3.running_var', 'embed_image.resnet.6.4.bn3.bias', 'embed_image.resnet.7.2.bn2.weight', 'embed_image.resnet.7.2.bn3.running_mean', 'embed_image.resnet.7.1.conv1.weight', 'embed_image.resnet.7.0.downsample.1.running_var', 'embed_image.resnet.6.3.bn2.running_var', 'embed_image.resnet.4.0.bn1.weight', 'embed_image.resnet.5.0.bn1.bias', 'embed_image.resnet.4.1.bn2.running_var', 'embed_image.resnet.7.0.conv3.weight', 'embed_image.resnet.1.num_batches_tracked', 'embed_image.resnet.6.5.bn1.num_batches_tracked', 'embed_image.resnet.6.1.conv2.weight', 'embed_image.resnet.5.2.bn2.running_var', 'embed_image.resnet.6.3.bn2.running_mean', 'embed_image.resnet.6.3.bn2.weight', 'embed_image.resnet.7.2.conv3.weight', 'embed_image.resnet.5.2.bn1.bias', 'embed_image.resnet.4.1.bn3.running_var']
+Loading checkpoint shards: 100%|██████████| 2/2 [00:19<00:00,  8.67s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:19<00:00,  9.51s/it]
+Some weights of TrueReader were not initialized from the model checkpoint at /home/jaded79/visual-check/llama_weights/ and are newly initialized: ['embed_image.resnet.4.1.conv1.weight', 'embed_image.resnet.6.1.conv1.weight', 'embed_image.resnet.6.3.bn1.running_mean', 'embed_image.resnet.6.0.bn2.num_batches_tracked', 'embed_image.resnet.5.3.bn3.num_batches_tracked', 'embed_image.resnet.5.2.bn1.weight', 'embed_image.resnet.7.0.bn1.weight', 'embed_image.resnet.5.0.bn1.weight', 'embed_image.resnet.6.2.bn3.num_batches_tracked', 'embed_image.resnet.6.1.bn2.num_batches_tracked', 'embed_image.resnet.6.0.downsample.1.running_mean', 'embed_image.resnet.5.3.bn3.weight', 'embed_image.resnet.4.0.conv3.weight', 'embed_image.resnet.7.0.downsample.0.weight', 'embed_image.resnet.4.1.conv3.weight', 'embed_image.resnet.5.0.bn2.running_var', 'embed_image.resnet.4.0.bn3.num_batches_tracked', 'embed_image.resnet.5.3.conv3.weight', 'embed_image.resnet.4.1.bn1.num_batches_tracked', 'embed_image.resnet.7.1.conv3.weight', 'embed_image.resnet.7.1.bn3.running_mean', 'embed_image.resnet.5.1.bn2.weight', 'embed_image.resnet.7.0.bn1.running_var', 'embed_image.resnet.6.0.bn3.running_mean', 'embed_image.resnet.7.1.bn3.bias', 'embed_image.resnet.1.bias', 'embed_image.resnet.5.0.downsample.1.num_batches_tracked', 'embed_image.resnet.7.2.bn3.bias', 'embed_image.resnet.7.0.downsample.1.num_batches_tracked', 'embed_image.resnet.5.0.downsample.1.running_mean', 'embed_image.resnet.6.2.bn3.weight', 'embed_image.resnet.5.0.downsample.1.running_var', 'embed_image.resnet.7.1.conv2.weight', 'embed_image.resnet.4.2.bn1.weight', 'embed_image.resnet.5.1.bn3.running_mean', 'embed_image.resnet.5.2.bn1.running_var', 'embed_image.resnet.5.0.bn1.running_var', 'embed_image.resnet.6.5.bn1.bias', 'embed_image.resnet.6.3.bn1.bias', 'embed_image.resnet.5.1.bn3.running_var', 'embed_image.resnet.6.4.bn2.weight', 'embed_image.resnet.4.2.bn3.bias', 'embed_image.resnet.5.1.conv2.weight', 'embed_image.resnet.7.0.conv3.weight', 'embed_image.resnet.4.2.bn2.bias', 'embed_image.resnet.7.0.conv2.weight', 'embed_image.resnet.6.0.bn3.bias', 'embed_image.resnet.6.1.bn2.weight', 'embed_image.resnet.4.2.bn1.running_mean', 'embed_image.resnet.5.1.conv3.weight', 'embed_image.resnet.4.2.bn1.bias', 'embed_image.resnet.6.3.bn2.bias', 'embed_image.resnet.4.1.bn1.bias', 'embed_image.resnet.6.5.bn3.weight', 'embed_image.resnet.6.0.conv3.weight', 'embed_image.resnet.5.1.bn3.bias', 'embed_image.resnet.4.0.conv1.weight', 'embed_image.resnet.4.2.conv2.weight', 'embed_image.resnet.6.2.conv3.weight', 'embed_image.resnet.5.2.bn3.running_mean', 'embed_image.resnet.6.1.bn1.num_batches_tracked', 'embed_image.resnet.6.2.bn2.weight', 'embed_image.resnet.4.0.downsample.1.bias', 'embed_image.resnet.7.0.bn3.num_batches_tracked', 'embed_image.resnet.7.1.bn3.running_var', 'embed_image.resnet.6.5.bn3.bias', 'embed_image.resnet.6.5.bn2.weight', 'embed_image.resnet.6.5.bn1.running_mean', 'embed_image.resnet.4.1.bn2.running_var', 'embed_image.resnet.6.4.bn3.bias', 'embed_image.resnet.6.4.bn1.bias', 'embed_image.resnet.6.1.bn1.running_var', 'embed_image.resnet.5.2.bn3.num_batches_tracked', 'embed_image.resnet.7.2.bn1.running_mean', 'embed_image.resnet.5.2.bn2.bias', 'embed_image.resnet.4.0.bn1.weight', 'embed_image.resnet.7.2.bn3.weight', 'embed_image.resnet.6.5.conv2.weight', 'embed_image.resnet.4.0.bn2.num_batches_tracked', 'embed_image.resnet.6.4.bn2.running_mean', 'embed_image.resnet.7.1.bn2.num_batches_tracked', 'embed_image.resnet.4.2.bn1.running_var', 'embed_image.resnet.6.5.conv1.weight', 'embed_image.resnet.5.1.bn2.running_mean', 'embed_image.resnet.6.0.bn2.weight', 'embed_image.resnet.6.5.bn3.running_mean', 'embed_image.resnet.7.2.bn1.weight', 'embed_image.resnet.4.1.bn2.bias', 'embed_image.resnet.6.4.conv1.weight', 'embed_image.resnet.1.running_mean', 'embed_image.resnet.7.0.conv1.weight', 'embed_image.resnet.6.3.bn1.running_var', 'embed_image.resnet.5.2.bn1.running_mean', 'embed_image.resnet.6.5.conv3.weight', 'embed_image.resnet.6.5.bn3.num_batches_tracked', 'embed_image.resnet.5.3.bn1.num_batches_tracked', 'embed_image.resnet.5.3.bn1.running_mean', 'embed_image.resnet.5.2.bn2.weight', 'embed_image.resnet.5.0.bn3.running_var', 'embed_image.resnet.5.1.bn3.weight', 'embed_image.resnet.6.2.conv1.weight', 'embed_image.resnet.6.0.bn1.weight', 'embed_image.resnet.4.1.bn2.weight', 'embed_image.resnet.7.1.bn1.running_var', 'embed_image.resnet.6.1.bn1.weight', 'embed_image.resnet.6.0.bn2.bias', 'embed_image.resnet.7.2.bn3.running_mean', 'embed_image.resnet.4.0.downsample.1.num_batches_tracked', 'embed_image.resnet.6.0.bn2.running_mean', 'embed_image.resnet.6.2.bn3.running_mean', 'embed_image.resnet.6.4.bn1.weight', 'embed_image.resnet.7.0.bn2.weight', 'embed_image.resnet.6.2.bn1.bias', 'embed_image.resnet.6.5.bn1.weight', 'embed_image.resnet.5.1.bn1.running_mean', 'embed_image.resnet.7.1.bn1.num_batches_tracked', 'embed_image.resnet.6.0.bn2.running_var', 'embed_image.resnet.6.0.conv2.weight', 'embed_image.resnet.5.3.bn1.running_var', 'embed_image.resnet.4.0.downsample.1.weight', 'embed_image.resnet.7.1.bn2.running_var', 'embed_image.resnet.1.num_batches_tracked', 'embed_image.resnet.5.0.downsample.1.weight', 'embed_image.resnet.7.2.conv2.weight', 'embed_image.resnet.5.0.conv1.weight', 'embed_image.resnet.6.5.bn2.running_var', 'embed_image.resnet.4.0.downsample.1.running_mean', 'embed_image.resnet.7.1.bn1.weight', 'embed_image.resnet.4.0.downsample.1.running_var', 'embed_image.resnet.4.2.bn2.running_mean', 'embed_image.resnet.5.3.bn2.running_mean', 'embed_image.resnet.5.3.bn2.num_batches_tracked', 'embed_image.resnet.6.3.conv1.weight', 'embed_image.resnet.4.1.bn3.weight', 'embed_image.resnet.5.2.conv2.weight', 'embed_image.resnet.6.3.bn2.num_batches_tracked', 'embed_image.resnet.6.1.bn1.running_mean', 'embed_image.resnet.6.4.bn1.running_mean', 'embed_image.resnet.5.1.bn1.bias', 'embed_image.resnet.7.2.bn3.num_batches_tracked', 'embed_image.resnet.6.0.downsample.0.weight', 'embed_image.resnet.6.0.bn1.bias', 'embed_image.resnet.4.2.bn2.num_batches_tracked', 'embed_image.resnet.7.0.bn2.running_var', 'embed_image.resnet.7.0.bn3.weight', 'embed_image.resnet.6.1.bn3.running_var', 'embed_image.resnet.7.2.bn2.bias', 'embed_image.resnet.6.4.bn3.running_mean', 'embed_image.resnet.4.0.bn2.running_mean', 'embed_image.resnet.7.1.bn2.bias', 'embed_image.resnet.7.2.bn3.running_var', 'embed_image.resnet.5.1.conv1.weight', 'embed_image.resnet.6.1.bn3.bias', 'embed_image.resnet.7.2.bn1.running_var', 'embed_image.resnet.6.3.bn1.weight', 'embed_image.resnet.5.3.bn1.bias', 'embed_image.resnet.5.0.conv2.weight', 'embed_image.resnet.6.2.bn2.running_var', 'embed_image.resnet.6.4.bn3.num_batches_tracked', 'embed_image.resnet.5.2.bn2.num_batches_tracked', 'embed_image.resnet.7.2.bn2.running_var', 'embed_image.resnet.4.0.bn1.bias', 'embed_image.resnet.4.2.conv3.weight', 'embed_image.resnet.4.0.bn3.running_mean', 'embed_image.resnet.4.2.bn2.running_var', 'embed_image.resnet.4.2.bn3.running_mean', 'embed_image.resnet.6.0.bn3.running_var', 'embed_image.resnet.6.2.bn1.running_mean', 'embed_image.resnet.6.2.bn3.running_var', 'embed_image.resnet.5.2.bn3.bias', 'embed_image.resnet.6.3.bn2.running_mean', 'embed_image.resnet.6.4.bn2.bias', 'embed_image.resnet.6.5.bn1.num_batches_tracked', 'embed_image.resnet.6.5.bn2.running_mean', 'embed_image.resnet.6.0.bn1.running_mean', 'embed_image.resnet.5.2.bn1.num_batches_tracked', 'embed_image.resnet.7.0.bn3.bias', 'embed_image.resnet.5.0.bn2.bias', 'embed_image.resnet.7.1.bn3.num_batches_tracked', 'embed_image.resnet.6.0.downsample.1.running_var', 'embed_image.resnet.4.1.bn3.num_batches_tracked', 'embed_image.resnet.5.3.conv2.weight', 'embed_image.resnet.6.0.bn1.running_var', 'embed_image.resnet.6.2.bn1.weight', 'embed_image.resnet.5.0.bn1.bias', 'embed_image.resnet.5.1.bn3.num_batches_tracked', 'embed_image.resnet.7.2.bn2.running_mean', 'embed_image.resnet.5.0.bn3.bias', 'embed_image.resnet.4.0.bn2.weight', 'embed_image.resnet.7.2.conv3.weight', 'embed_image.resnet.7.0.downsample.1.running_var', 'embed_image.resnet.5.0.bn3.running_mean', 'embed_image.resnet.7.0.downsample.1.bias', 'embed_image.resnet.6.4.conv3.weight', 'embed_image.resnet.7.2.bn2.num_batches_tracked', 'embed_image.resnet.5.1.bn2.running_var', 'embed_image.resnet.6.5.bn2.bias', 'embed_image.resnet.0.weight', 'embed_image.resnet.6.1.bn1.bias', 'embed_image.resnet.6.4.bn1.num_batches_tracked', 'embed_image.resnet.5.0.downsample.0.weight', 'embed_image.resnet.6.0.bn3.weight', 'embed_image.resnet.7.1.bn2.weight', 'embed_image.resnet.7.0.downsample.1.running_mean', 'embed_image.resnet.7.2.bn2.weight', 'embed_image.resnet.7.0.bn3.running_var', 'embed_image.resnet.6.0.downsample.1.bias', 'embed_image.resnet.6.1.bn2.bias', 'embed_image.resnet.6.3.bn3.weight', 'embed_image.resnet.5.2.conv1.weight', 'embed_image.resnet.7.1.bn1.bias', 'embed_image.resnet.4.0.bn2.running_var', 'embed_image.resnet.5.0.conv3.weight', 'embed_image.resnet.4.1.bn3.running_var', 'embed_image.resnet.6.4.bn3.running_var', 'embed_image.resnet.5.3.bn1.weight', 'embed_image.resnet.4.0.bn3.running_var', 'embed_image.resnet.7.0.downsample.1.weight', 'embeddings_project.bias', 'embed_image.resnet.4.0.bn3.bias', 'embed_image.resnet.4.1.bn1.weight', 'embed_image.resnet.6.4.conv2.weight', 'embed_image.resnet.4.1.bn2.running_mean', 'embed_image.resnet.4.2.bn1.num_batches_tracked', 'embed_image.resnet.5.3.conv1.weight', 'embed_image.resnet.4.1.bn1.running_mean', 'embed_image.resnet.5.1.bn2.num_batches_tracked', 'embed_image.resnet.4.2.bn3.num_batches_tracked', 'embed_image.resnet.6.4.bn1.running_var', 'embed_image.resnet.4.0.bn2.bias', 'embed_image.resnet.6.5.bn3.running_var', 'embed_image.resnet.5.0.downsample.1.bias', 'embed_image.resnet.5.0.bn2.num_batches_tracked', 'embed_image.resnet.4.2.conv1.weight', 'embed_image.resnet.6.4.bn2.num_batches_tracked', 'embed_image.resnet.6.3.conv2.weight', 'embed_image.resnet.6.2.conv2.weight', 'embed_image.resnet.6.0.bn1.num_batches_tracked', 'embed_image.resnet.6.1.conv2.weight', 'embed_image.resnet.5.2.bn1.bias', 'embed_image.resnet.6.3.bn1.num_batches_tracked', 'embed_image.resnet.5.1.bn1.weight', 'embed_image.resnet.7.0.bn1.bias', 'embed_image.resnet.6.1.conv3.weight', 'embed_image.resnet.7.1.bn3.weight', 'embed_image.resnet.7.0.bn3.running_mean', 'embed_image.resnet.5.0.bn2.running_mean', 'embed_image.resnet.6.2.bn2.bias', 'embed_image.resnet.5.3.bn3.bias', 'embed_image.resnet.6.3.bn3.running_mean', 'embed_image.resnet.5.2.bn2.running_mean', 'embed_image.resnet.6.0.bn3.num_batches_tracked', 'embed_image.resnet.6.2.bn1.running_var', 'embed_image.resnet.7.2.bn1.num_batches_tracked', 'embed_image.resnet.4.1.bn3.running_mean', 'embed_image.resnet.6.1.bn3.weight', 'embed_image.resnet.4.1.bn1.running_var', 'embed_image.resnet.5.2.bn3.running_var', 'embed_image.resnet.6.1.bn2.running_mean', 'embed_image.resnet.7.0.bn2.bias', 'embed_image.resnet.5.2.bn3.weight', 'embed_image.resnet.5.3.bn3.running_mean', 'embed_image.resnet.6.3.bn2.running_var', 'embed_image.resnet.4.0.bn1.running_mean', 'embed_image.resnet.4.0.bn1.num_batches_tracked', 'embed_image.resnet.6.2.bn1.num_batches_tracked', 'embed_image.resnet.5.3.bn2.weight', 'embed_image.resnet.4.1.bn2.num_batches_tracked', 'embeddings_project.weight', 'embed_image.resnet.4.0.conv2.weight', 'embed_image.resnet.6.0.downsample.1.weight', 'embed_image.resnet.7.0.bn2.running_mean', 'embed_image.resnet.7.1.bn1.running_mean', 'embed_image.resnet.7.2.bn1.bias', 'embed_image.resnet.4.2.bn3.running_var', 'embed_image.resnet.6.3.conv3.weight', 'embed_image.resnet.1.weight', 'embed_image.resnet.5.3.bn2.bias', 'embed_image.resnet.6.3.bn3.bias', 'embed_image.resnet.5.0.bn3.num_batches_tracked', 'embed_image.resnet.6.4.bn2.running_var', 'embed_image.resnet.5.0.bn1.running_mean', 'embed_image.resnet.5.3.bn3.running_var', 'embed_image.resnet.5.2.bn2.running_var', 'embed_image.resnet.6.3.bn3.num_batches_tracked', 'embed_image.resnet.7.1.conv1.weight', 'embed_image.resnet.4.0.downsample.0.weight', 'embed_image.resnet.7.0.bn1.running_mean', 'embed_image.resnet.1.running_var', 'embed_image.resnet.5.1.bn2.bias', 'embed_image.resnet.5.1.bn1.running_var', 'embed_image.resnet.4.0.bn3.weight', 'embed_image.resnet.6.5.bn2.num_batches_tracked', 'embed_image.resnet.6.3.bn3.running_var', 'embed_image.resnet.7.0.bn2.num_batches_tracked', 'embed_image.resnet.5.0.bn2.weight', 'embed_image.resnet.6.1.bn3.num_batches_tracked', 'embed_image.resnet.6.3.bn2.weight', 'embed_image.resnet.6.2.bn2.num_batches_tracked', 'embed_image.resnet.6.5.bn1.running_var', 'embed_image.resnet.7.0.bn1.num_batches_tracked', 'embed_image.resnet.6.1.bn3.running_mean', 'embed_image.resnet.6.2.bn3.bias', 'embed_image.resnet.5.1.bn1.num_batches_tracked', 'embed_image.resnet.6.4.bn3.weight', 'embed_image.resnet.6.2.bn2.running_mean', 'embed_image.resnet.4.2.bn3.weight', 'embed_image.resnet.7.1.bn2.running_mean', 'embed_image.resnet.6.0.conv1.weight', 'embed_image.resnet.5.3.bn2.running_var', 'embed_image.resnet.7.2.conv1.weight', 'embed_image.resnet.6.0.downsample.1.num_batches_tracked', 'embed_image.resnet.4.1.conv2.weight', 'embed_image.resnet.5.2.conv3.weight', 'embed_image.resnet.4.1.bn3.bias', 'embed_image.resnet.5.0.bn1.num_batches_tracked', 'embed_image.resnet.4.2.bn2.weight', 'embed_image.resnet.4.0.bn1.running_var', 'embed_image.resnet.5.0.bn3.weight', 'embed_image.resnet.6.1.bn2.running_var']
 You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
 normalizer.cc(51) LOG(INFO) precompiled_charsmap is empty. use identity normalization.
 normalizer.cc(51) LOG(INFO) precompiled_charsmap is empty. use identity normalization.
@@ -99,450 +99,1883 @@ Using pad_token, but it is not set yet.
   warnings.warn(
 /home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/torch/distributed/fsdp/_wrap_utils.py:65: UserWarning: Both mixed precision and an `auto_wrap_policy` were specified for FSDP, where the wrapped module has batch norm submodules. The batch norm submodules will be wrapped as separate FSDP instances with mixed precision disabled since some batch norm kernels do not support low precision.
   warnings.warn(
-in dataloader. input shape: torch.Size([9]), image shape: torch.Size([3, 224, 224])
-in dataloader. input shape: torch.Size([9]), image shape: torch.Size([3, 224, 224])
-in collator. input_ids shape: torch.Size([2, 9]), attention_mask shape: torch.Size([2, 9]), images shape: torch.Size([2, 3, 224, 224])
+size of input_ids: torch.Size([1, 9])
+generating code after input:  recreate the image in latex.
+generating token 0 of 100, memory allocated: 13642177024
 wandb: Tracking run with wandb version 0.13.10
 wandb: W&B syncing is set to `offline` in this directory.  
 wandb: Run `wandb online` or set WANDB_MODE=online to enable cloud syncing.
-  0%|          | 0/4029 [00:00<?, ?it/s]in dataloader. input shape: torch.Size([9]), image shape: torch.Size([3, 224, 224])
-in dataloader. input shape: torch.Size([9]), image shape: torch.Size([3, 224, 224])
-in collator. input_ids shape: torch.Size([2, 9]), attention_mask shape: torch.Size([2, 9]), images shape: torch.Size([2, 3, 224, 224])
-in forward pass. input_ids size before embedding: torch.Size([2, 9])
-in forward pass. input_ids size before embedding: torch.Size([2, 9])
-In forward pass. text embeddings: torch.Size([2, 9, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 9, 2048])
-In forward pass. text embeddings: torch.Size([2, 9, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 9, 2048])
-in forward pass. input_ids size before embedding: torch.Size([2, 10])
-in forward pass. input_ids size before embedding: torch.Size([2, 10])
-In forward pass. text embeddings: torch.Size([2, 10, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 10, 2048])
-In forward pass. text embeddings: torch.Size([2, 10, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 10, 2048])
-in forward pass. input_ids size before embedding: torch.Size([2, 11])
-in forward pass. input_ids size before embedding: torch.Size([2, 11])
-In forward pass. text embeddings: torch.Size([2, 11, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 11, 2048])
-In forward pass. text embeddings: torch.Size([2, 11, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 11, 2048])
-in forward pass. input_ids size before embedding: torch.Size([2, 12])
-in forward pass. input_ids size before embedding: torch.Size([2, 12])
-In forward pass. text embeddings: torch.Size([2, 12, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 12, 2048])
-In forward pass. text embeddings: torch.Size([2, 12, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 12, 2048])
-in forward pass. input_ids size before embedding: torch.Size([2, 13])
-in forward pass. input_ids size before embedding: torch.Size([2, 13])
-In forward pass. text embeddings: torch.Size([2, 13, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 13, 2048])
-In forward pass. text embeddings: torch.Size([2, 13, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 13, 2048])
-in forward pass. input_ids size before embedding: torch.Size([2, 14])
-in forward pass. input_ids size before embedding: torch.Size([2, 14])
-In forward pass. text embeddings: torch.Size([2, 14, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 14, 2048])
-In forward pass. text embeddings: torch.Size([2, 14, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 14, 2048])
-in forward pass. input_ids size before embedding: torch.Size([2, 15])
-in forward pass. input_ids size before embedding: torch.Size([2, 15])
-In forward pass. text embeddings: torch.Size([2, 15, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 15, 2048])
-In forward pass. text embeddings: torch.Size([2, 15, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 15, 2048])
-in forward pass. input_ids size before embedding: torch.Size([2, 16])
-in forward pass. input_ids size before embedding: torch.Size([2, 16])
-In forward pass. text embeddings: torch.Size([2, 16, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 16, 2048])
-In forward pass. text embeddings: torch.Size([2, 16, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 16, 2048])
-in forward pass. input_ids size before embedding: torch.Size([2, 17])
-in forward pass. input_ids size before embedding: torch.Size([2, 17])
-In forward pass. text embeddings: torch.Size([2, 17, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 17, 2048])
-In forward pass. text embeddings: torch.Size([2, 17, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 17, 2048])
-in forward pass. input_ids size before embedding: torch.Size([2, 18])
-in forward pass. input_ids size before embedding: torch.Size([2, 18])
-In forward pass. text embeddings: torch.Size([2, 18, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 18, 2048])
-In forward pass. text embeddings: torch.Size([2, 18, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 18, 2048])
-in forward pass. input_ids size before embedding: torch.Size([2, 19])
-in forward pass. input_ids size before embedding: torch.Size([2, 19])
-In forward pass. text embeddings: torch.Size([2, 19, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 19, 2048])
-In forward pass. text embeddings: torch.Size([2, 19, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 19, 2048])
-in forward pass. input_ids size before embedding: torch.Size([2, 20])
-in forward pass. input_ids size before embedding: torch.Size([2, 20])
-In forward pass. text embeddings: torch.Size([2, 20, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 20, 2048])
-In forward pass. text embeddings: torch.Size([2, 20, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 20, 2048])
-in forward pass. input_ids size before embedding: torch.Size([2, 21])
-in forward pass. input_ids size before embedding: torch.Size([2, 21])
-In forward pass. text embeddings: torch.Size([2, 21, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 21, 2048])
-In forward pass. text embeddings: torch.Size([2, 21, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 21, 2048])
-in forward pass. input_ids size before embedding: torch.Size([2, 22])
-in forward pass. input_ids size before embedding: torch.Size([2, 22])
-In forward pass. text embeddings: torch.Size([2, 22, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 22, 2048])
-In forward pass. text embeddings: torch.Size([2, 22, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 22, 2048])
-in forward pass. input_ids size before embedding: torch.Size([2, 23])
-in forward pass. input_ids size before embedding: torch.Size([2, 23])
-In forward pass. text embeddings: torch.Size([2, 23, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 23, 2048])
-In forward pass. text embeddings: torch.Size([2, 23, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 23, 2048])
-in forward pass. input_ids size before embedding: torch.Size([2, 24])
-in forward pass. input_ids size before embedding: torch.Size([2, 24])
-In forward pass. text embeddings: torch.Size([2, 24, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 24, 2048])
-In forward pass. text embeddings: torch.Size([2, 24, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 24, 2048])
-in forward pass. input_ids size before embedding: torch.Size([2, 25])
-in forward pass. input_ids size before embedding: torch.Size([2, 25])
-In forward pass. text embeddings: torch.Size([2, 25, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 25, 2048])
-In forward pass. text embeddings: torch.Size([2, 25, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 25, 2048])
-in forward pass. input_ids size before embedding: torch.Size([2, 26])
-in forward pass. input_ids size before embedding: torch.Size([2, 26])
-In forward pass. text embeddings: torch.Size([2, 26, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 26, 2048])
-In forward pass. text embeddings: torch.Size([2, 26, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 26, 2048])
-in forward pass. input_ids size before embedding: torch.Size([2, 27])
-in forward pass. input_ids size before embedding: torch.Size([2, 27])
-In forward pass. text embeddings: torch.Size([2, 27, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 27, 2048])
-In forward pass. text embeddings: torch.Size([2, 27, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 27, 2048])
-in forward pass. input_ids size before embedding: torch.Size([2, 28])
-in forward pass. input_ids size before embedding: torch.Size([2, 28])
-In forward pass. text embeddings: torch.Size([2, 28, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 28, 2048])
-In forward pass. text embeddings: torch.Size([2, 28, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 28, 2048])
-in forward pass. input_ids size before embedding: torch.Size([2, 29])
-in forward pass. input_ids size before embedding: torch.Size([2, 29])
-In forward pass. text embeddings: torch.Size([2, 29, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 29, 2048])
-In forward pass. text embeddings: torch.Size([2, 29, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 29, 2048])
-in forward pass. input_ids size before embedding: torch.Size([2, 30])
-in forward pass. input_ids size before embedding: torch.Size([2, 30])
-In forward pass. text embeddings: torch.Size([2, 30, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 30, 2048])
-In forward pass. text embeddings: torch.Size([2, 30, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 30, 2048])
-in forward pass. input_ids size before embedding: torch.Size([2, 31])
-in forward pass. input_ids size before embedding: torch.Size([2, 31])
-In forward pass. text embeddings: torch.Size([2, 31, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 31, 2048])
-In forward pass. text embeddings: torch.Size([2, 31, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 31, 2048])
-in forward pass. input_ids size before embedding: torch.Size([2, 32])
-in forward pass. input_ids size before embedding: torch.Size([2, 32])
-In forward pass. text embeddings: torch.Size([2, 32, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 32, 2048])
-In forward pass. text embeddings: torch.Size([2, 32, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 32, 2048])
-in forward pass. input_ids size before embedding: torch.Size([2, 33])
-in forward pass. input_ids size before embedding: torch.Size([2, 33])
-In forward pass. text embeddings: torch.Size([2, 33, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 33, 2048])
-In forward pass. text embeddings: torch.Size([2, 33, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 33, 2048])
-in forward pass. input_ids size before embedding: torch.Size([2, 34])
-in forward pass. input_ids size before embedding: torch.Size([2, 34])
-In forward pass. text embeddings: torch.Size([2, 34, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 34, 2048])
-In forward pass. text embeddings: torch.Size([2, 34, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 34, 2048])
-in forward pass. input_ids size before embedding: torch.Size([2, 35])
-in forward pass. input_ids size before embedding: torch.Size([2, 35])
-In forward pass. text embeddings: torch.Size([2, 35, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 35, 2048])
-In forward pass. text embeddings: torch.Size([2, 35, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 35, 2048])
-in forward pass. input_ids size before embedding: torch.Size([2, 36])
-in forward pass. input_ids size before embedding: torch.Size([2, 36])
-In forward pass. text embeddings: torch.Size([2, 36, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 36, 2048])
-In forward pass. text embeddings: torch.Size([2, 36, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 36, 2048])
-in forward pass. input_ids size before embedding: torch.Size([2, 37])
-in forward pass. input_ids size before embedding: torch.Size([2, 37])
-In forward pass. text embeddings: torch.Size([2, 37, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 37, 2048])
-In forward pass. text embeddings: torch.Size([2, 37, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 37, 2048])
-in forward pass. input_ids size before embedding: torch.Size([2, 38])
-in forward pass. input_ids size before embedding: torch.Size([2, 38])
-In forward pass. text embeddings: torch.Size([2, 38, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 38, 2048])
-In forward pass. text embeddings: torch.Size([2, 38, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 38, 2048])
-in forward pass. input_ids size before embedding: torch.Size([2, 39])
-in forward pass. input_ids size before embedding: torch.Size([2, 39])
-In forward pass. text embeddings: torch.Size([2, 39, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 39, 2048])
-In forward pass. text embeddings: torch.Size([2, 39, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 39, 2048])
-in forward pass. input_ids size before embedding: torch.Size([2, 40])
-in forward pass. input_ids size before embedding: torch.Size([2, 40])
-In forward pass. text embeddings: torch.Size([2, 40, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 40, 2048])
-In forward pass. text embeddings: torch.Size([2, 40, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 40, 2048])
-in forward pass. input_ids size before embedding: torch.Size([2, 41])
-in forward pass. input_ids size before embedding: torch.Size([2, 41])
-In forward pass. text embeddings: torch.Size([2, 41, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 41, 2048])
-In forward pass. text embeddings: torch.Size([2, 41, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 41, 2048])
-in forward pass. input_ids size before embedding: torch.Size([2, 42])
-in forward pass. input_ids size before embedding: torch.Size([2, 42])
-In forward pass. text embeddings: torch.Size([2, 42, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 42, 2048])
-In forward pass. text embeddings: torch.Size([2, 42, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 42, 2048])
-in forward pass. input_ids size before embedding: torch.Size([2, 43])
-in forward pass. input_ids size before embedding: torch.Size([2, 43])
-In forward pass. text embeddings: torch.Size([2, 43, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 43, 2048])
-In forward pass. text embeddings: torch.Size([2, 43, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 43, 2048])
-in forward pass. input_ids size before embedding: torch.Size([2, 44])
-in forward pass. input_ids size before embedding: torch.Size([2, 44])
-In forward pass. text embeddings: torch.Size([2, 44, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 44, 2048])
-In forward pass. text embeddings: torch.Size([2, 44, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 44, 2048])
-in forward pass. input_ids size before embedding: torch.Size([2, 45])
-in forward pass. input_ids size before embedding: torch.Size([2, 45])
-In forward pass. text embeddings: torch.Size([2, 45, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 45, 2048])
-In forward pass. text embeddings: torch.Size([2, 45, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 45, 2048])
-in forward pass. input_ids size before embedding: torch.Size([2, 46])
-in forward pass. input_ids size before embedding: torch.Size([2, 46])
-In forward pass. text embeddings: torch.Size([2, 46, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 46, 2048])
-In forward pass. text embeddings: torch.Size([2, 46, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 46, 2048])
-in forward pass. input_ids size before embedding: torch.Size([2, 47])
-in forward pass. input_ids size before embedding: torch.Size([2, 47])
-In forward pass. text embeddings: torch.Size([2, 47, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 47, 2048])
-In forward pass. text embeddings: torch.Size([2, 47, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 47, 2048])
-in forward pass. input_ids size before embedding: torch.Size([2, 48])
-in forward pass. input_ids size before embedding: torch.Size([2, 48])
-In forward pass. text embeddings: torch.Size([2, 48, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 48, 2048])
-In forward pass. text embeddings: torch.Size([2, 48, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 48, 2048])
-in forward pass. input_ids size before embedding: torch.Size([2, 49])
-in forward pass. input_ids size before embedding: torch.Size([2, 49])
-In forward pass. text embeddings: torch.Size([2, 49, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 49, 2048])
-In forward pass. text embeddings: torch.Size([2, 49, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 49, 2048])
-in forward pass. input_ids size before embedding: torch.Size([2, 50])
-in forward pass. input_ids size before embedding: torch.Size([2, 50])
-In forward pass. text embeddings: torch.Size([2, 50, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 50, 2048])
-In forward pass. text embeddings: torch.Size([2, 50, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 50, 2048])
-in forward pass. input_ids size before embedding: torch.Size([2, 51])
-in forward pass. input_ids size before embedding: torch.Size([2, 51])
-In forward pass. text embeddings: torch.Size([2, 51, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 51, 2048])
-In forward pass. text embeddings: torch.Size([2, 51, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 51, 2048])
-in forward pass. input_ids size before embedding: torch.Size([2, 52])
-in forward pass. input_ids size before embedding: torch.Size([2, 52])
-In forward pass. text embeddings: torch.Size([2, 52, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 52, 2048])
-In forward pass. text embeddings: torch.Size([2, 52, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 52, 2048])
-in forward pass. input_ids size before embedding: torch.Size([2, 53])
-in forward pass. input_ids size before embedding: torch.Size([2, 53])
-In forward pass. text embeddings: torch.Size([2, 53, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 53, 2048])
-In forward pass. text embeddings: torch.Size([2, 53, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 53, 2048])
-in forward pass. input_ids size before embedding: torch.Size([2, 54])
-in forward pass. input_ids size before embedding: torch.Size([2, 54])
-In forward pass. text embeddings: torch.Size([2, 54, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 54, 2048])
-In forward pass. text embeddings: torch.Size([2, 54, 4096]), image embeddings: torch.Size([2, 2048])
-resized image embeddings: torch.Size([2, 54, 2048])
-Traceback (most recent call last):
-  File "/home/jaded79/visual-check/truereader.py", line 414, in <module>
-    trainer.train()
-  File "/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/transformers/trainer.py", line 1644, in train
-    return inner_training_loop(
-           ^^^^^^^^^^^^^^^^^^^^
-  File "/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/transformers/trainer.py", line 1909, in _inner_training_loop
-    tr_loss_step = self.training_step(model, inputs)
-                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/jaded79/visual-check/truereader.py", line 297, in training_step
-    gen_latex_code = generate_latex_code(model, input_ids, self.tokenizer, images, max_length=100)
-                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/jaded79/visual-check/truereader.py", line 261, in generate_latex_code
-    outputs = model(input_ids=gen_tokens, past_key_values=past_key_values, images=images)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
-    return forward_call(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/torch/distributed/fsdp/fully_sharded_data_parallel.py", line 748, in forward
-    output = self._fsdp_wrapped_module(*args, **kwargs)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
-    return forward_call(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/jaded79/visual-check/truereader.py", line 201, in forward
-    output = super().forward(input_ids=None, attention_mask=attention_mask, past_key_values=past_key_values, inputs_embeds=inputs_embeds, labels=labels, use_cache=use_cache, output_attentions=output_attentions, output_hidden_states=output_hidden_states, return_dict=return_dict)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/transformers/models/llama/modeling_llama.py", line 765, in forward
-    outputs = self.model(
-              ^^^^^^^^^^^
-  File "/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
-    return forward_call(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/transformers/models/llama/modeling_llama.py", line 614, in forward
-    layer_outputs = decoder_layer(
-                    ^^^^^^^^^^^^^^
-  File "/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
-    return forward_call(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/torch/distributed/fsdp/fully_sharded_data_parallel.py", line 739, in forward
-    args, kwargs = _pre_forward(
-                   ^^^^^^^^^^^^^
-  File "/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/torch/distributed/fsdp/_runtime_utils.py", line 413, in _pre_forward
-    unshard_fn()
-  File "/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/torch/distributed/fsdp/_runtime_utils.py", line 434, in _pre_forward_unshard
-    _unshard(state, handles, state._streams["unshard"], state._streams["pre_unshard"])
-  File "/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/torch/distributed/fsdp/_runtime_utils.py", line 329, in _unshard
-    handle.unshard()
-  File "/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/torch/distributed/fsdp/flat_param.py", line 918, in unshard
-    unsharded_flat_param = self._alloc_padded_unsharded_flat_param()
-                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/torch/distributed/fsdp/flat_param.py", line 944, in _alloc_padded_unsharded_flat_param
-    _alloc_storage(unsharded_flat_param, flat_param._padded_unsharded_size)  # type: ignore[attr-defined]
-    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
-    return func(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^
-  File "/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/torch/distributed/fsdp/_utils.py", line 79, in _alloc_storage
-    tensor._typed_storage()._resize_(size.numel())
-  File "/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/torch/storage.py", line 764, in _resize_
-Traceback (most recent call last):
-  File "/home/jaded79/visual-check/truereader.py", line 414, in <module>
-    trainer.train()
-  File "/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/transformers/trainer.py", line 1644, in train
-    return inner_training_loop(
-           ^^^^^^^^^^^^^^^^^^^^
-  File "/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/transformers/trainer.py", line 1909, in _inner_training_loop
-    tr_loss_step = self.training_step(model, inputs)
-                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/jaded79/visual-check/truereader.py", line 297, in training_step
-    gen_latex_code = generate_latex_code(model, input_ids, self.tokenizer, images, max_length=100)
-                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/jaded79/visual-check/truereader.py", line 261, in generate_latex_code
-    outputs = model(input_ids=gen_tokens, past_key_values=past_key_values, images=images)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
-    return forward_call(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/torch/distributed/fsdp/fully_sharded_data_parallel.py", line 748, in forward
-    output = self._fsdp_wrapped_module(*args, **kwargs)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
-    return forward_call(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/jaded79/visual-check/truereader.py", line 201, in forward
-    output = super().forward(input_ids=None, attention_mask=attention_mask, past_key_values=past_key_values, inputs_embeds=inputs_embeds, labels=labels, use_cache=use_cache, output_attentions=output_attentions, output_hidden_states=output_hidden_states, return_dict=return_dict)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/transformers/models/llama/modeling_llama.py", line 765, in forward
-    outputs = self.model(
-              ^^^^^^^^^^^
-  File "/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
-    return forward_call(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/transformers/models/llama/modeling_llama.py", line 614, in forward
-    layer_outputs = decoder_layer(
-                    ^^^^^^^^^^^^^^
-  File "/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
-    return forward_call(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/torch/distributed/fsdp/fully_sharded_data_parallel.py", line 739, in forward
-    args, kwargs = _pre_forward(
-                   ^^^^^^^^^^^^^
-  File "/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/torch/distributed/fsdp/_runtime_utils.py", line 413, in _pre_forward
-    unshard_fn()
-  File "/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/torch/distributed/fsdp/_runtime_utils.py", line 434, in _pre_forward_unshard
-    _unshard(state, handles, state._streams["unshard"], state._streams["pre_unshard"])
-  File "/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/torch/distributed/fsdp/_runtime_utils.py", line 329, in _unshard
-    handle.unshard()
-  File "/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/torch/distributed/fsdp/flat_param.py", line 918, in unshard
-    unsharded_flat_param = self._alloc_padded_unsharded_flat_param()
-                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/torch/distributed/fsdp/flat_param.py", line 944, in _alloc_padded_unsharded_flat_param
-    _alloc_storage(unsharded_flat_param, flat_param._padded_unsharded_size)  # type: ignore[attr-defined]
-    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
-    return func(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^
-  File "/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/torch/distributed/fsdp/_utils.py", line 79, in _alloc_storage
-    tensor._typed_storage()._resize_(size.numel())
-  File "/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/torch/storage.py", line 764, in _resize_
-    self._untyped_storage.resize_(size * self._element_size())
-torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 388.00 MiB (GPU 0; 79.35 GiB total capacity; 75.41 GiB already allocated; 353.19 MiB free; 77.17 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
-wandb: Waiting for W&B process to finish... (failed 1).
-    self._untyped_storage.resize_(size * self._element_size())
-torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 388.00 MiB (GPU 1; 79.35 GiB total capacity; 75.41 GiB already allocated; 355.19 MiB free; 77.17 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
-wandb: You can sync this run to the cloud by running:
-wandb: wandb sync /home/jaded79/visual-check/wandb/offline-run-20230327_091506-gf5r5bpl
-wandb: Find logs at: ./wandb/offline-run-20230327_091506-gf5r5bpl/logs
-WARNING:torch.distributed.elastic.multiprocessing.api:Sending process 92898 closing signal SIGTERM
-ERROR:torch.distributed.elastic.multiprocessing.api:failed (exitcode: 1) local_rank: 1 (pid: 92899) of binary: /home/jaded79/.conda/envs/mmcoder/bin/python
-Traceback (most recent call last):
-  File "/home/jaded79/.conda/envs/mmcoder/bin/torchrun", line 8, in <module>
-    sys.exit(main())
-             ^^^^^^
-  File "/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 346, in wrapper
-    return f(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^
-  File "/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/torch/distributed/run.py", line 794, in main
-    run(args)
-  File "/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/torch/distributed/run.py", line 785, in run
-    elastic_launch(
-  File "/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 134, in __call__
-    return launch_agent(self._config, self._entrypoint, list(args))
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 250, in launch_agent
-    raise ChildFailedError(
-torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
-============================================================
-truereader.py FAILED
-------------------------------------------------------------
-Failures:
-  <NO_OTHER_FAILURES>
-------------------------------------------------------------
-Root Cause (first observed failure):
-[0]:
-  time      : 2023-03-27_09:15:39
-  host      : cs-1-2.rc.byu.edu
-  rank      : 1 (local_rank: 1)
-  exitcode  : 1 (pid: 92899)
-  error_file: <N/A>
-  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
-============================================================
+  0%|          | 0/32247 [00:00<?, ?it/s]size of input_ids: torch.Size([1, 9])
+generating code after input:  recreate the image in latex.
+generating token 0 of 100, memory allocated: 13642177024
+generating token 1 of 100, memory allocated: 14244000768
+generating token 1 of 100, memory allocated: 14244000768
+generating token 2 of 100, memory allocated: 14249307648
+generating token 2 of 100, memory allocated: 14249307648
+generating token 3 of 100, memory allocated: 14255138816
+generating token 3 of 100, memory allocated: 14255138816
+generating token 4 of 100, memory allocated: 14261494272
+generating token 4 of 100, memory allocated: 14261494272
+generating token 5 of 100, memory allocated: 14268374016
+generating token 5 of 100, memory allocated: 14268374016
+generating token 6 of 100, memory allocated: 14275778048
+generating token 6 of 100, memory allocated: 14275778048
+generating token 7 of 100, memory allocated: 14283706368
+generating token 7 of 100, memory allocated: 14283706368
+generating token 8 of 100, memory allocated: 14292158976
+generating token 8 of 100, memory allocated: 14292158976
+generating token 9 of 100, memory allocated: 14301339136
+generating token 9 of 100, memory allocated: 14301339136
+generating token 10 of 100, memory allocated: 14341832192
+generating token 10 of 100, memory allocated: 14341832192
+generating token 11 of 100, memory allocated: 14321293312
+generating token 11 of 100, memory allocated: 14321293312
+generating token 12 of 100, memory allocated: 14353823744
+generating token 12 of 100, memory allocated: 14353823744
+generating token 13 of 100, memory allocated: 14342429696
+generating token 13 of 100, memory allocated: 14342429696
+generating token 14 of 100, memory allocated: 14365898240
+generating token 14 of 100, memory allocated: 14365898240
+generating token 15 of 100, memory allocated: 14366706176
+generating token 15 of 100, memory allocated: 14366706176
+generating token 16 of 100, memory allocated: 14379122176
+generating token 16 of 100, memory allocated: 14379122176
+generating token 17 of 100, memory allocated: 14393610752
+generating token 17 of 100, memory allocated: 14393610752
+generating token 18 of 100, memory allocated: 14406589952
+generating token 18 of 100, memory allocated: 14406589952
+generating token 19 of 100, memory allocated: 14420269568
+generating token 19 of 100, memory allocated: 14420269568
+generating token 20 of 100, memory allocated: 14436220416
+generating token 20 of 100, memory allocated: 14436220416
+generating token 21 of 100, memory allocated: 14450640896
+generating token 21 of 100, memory allocated: 14450640896
+generating token 22 of 100, memory allocated: 14466328576
+generating token 22 of 100, memory allocated: 14466328576
+generating token 23 of 100, memory allocated: 14483064832
+generating token 23 of 100, memory allocated: 14483064832
+generating token 24 of 100, memory allocated: 14500464640
+generating token 24 of 100, memory allocated: 14500464640
+generating token 25 of 100, memory allocated: 14517200896
+generating token 25 of 100, memory allocated: 14517200896
+generating token 26 of 100, memory allocated: 14536359424
+generating token 26 of 100, memory allocated: 14536359424
+generating token 27 of 100, memory allocated: 14554417152
+generating token 27 of 100, memory allocated: 14554417152
+generating token 28 of 100, memory allocated: 14573119488
+generating token 28 of 100, memory allocated: 14573119488
+generating token 29 of 100, memory allocated: 14592313344
+generating token 29 of 100, memory allocated: 14592313344
+generating token 30 of 100, memory allocated: 14612867072
+generating token 30 of 100, memory allocated: 14612867072
+generating token 31 of 100, memory allocated: 14633314304
+generating token 31 of 100, memory allocated: 14633314304
+generating token 32 of 100, memory allocated: 14652680192
+generating token 32 of 100, memory allocated: 14652680192
+generating token 33 of 100, memory allocated: 14674700288
+generating token 33 of 100, memory allocated: 14674700288
+generating token 34 of 100, memory allocated: 14697539584
+generating token 34 of 100, memory allocated: 14697539584
+generating token 35 of 100, memory allocated: 14719084544
+generating token 35 of 100, memory allocated: 14719084544
+generating token 36 of 100, memory allocated: 14743144448
+generating token 36 of 100, memory allocated: 14743144448
+generating token 37 of 100, memory allocated: 14766349312
+generating token 37 of 100, memory allocated: 14766349312
+generating token 38 of 100, memory allocated: 14789855232
+generating token 38 of 100, memory allocated: 14789855232
+generating token 39 of 100, memory allocated: 14814693376
+generating token 39 of 100, memory allocated: 14814693376
+generating token 40 of 100, memory allocated: 14839466496
+generating token 40 of 100, memory allocated: 14839466496
+generating token 41 of 100, memory allocated: 14865859584
+generating token 41 of 100, memory allocated: 14865859584
+generating token 42 of 100, memory allocated: 14893664256
+generating token 42 of 100, memory allocated: 14893664256
+generating token 43 of 100, memory allocated: 14918633472
+generating token 43 of 100, memory allocated: 14918633472
+generating token 44 of 100, memory allocated: 14945977344
+generating token 44 of 100, memory allocated: 14945977344
+generating token 45 of 100, memory allocated: 14973584896
+generating token 45 of 100, memory allocated: 14973584896
+generating token 46 of 100, memory allocated: 15001855488
+generating token 46 of 100, memory allocated: 15001855488
+generating token 47 of 100, memory allocated: 15032263680
+generating token 47 of 100, memory allocated: 15032263680
+generating token 48 of 100, memory allocated: 15061108736
+generating token 48 of 100, memory allocated: 15061108736
+generating token 49 of 100, memory allocated: 15092754432
+generating token 49 of 100, memory allocated: 15092754432
+generating token 50 of 100, memory allocated: 15121303552
+generating token 50 of 100, memory allocated: 15121303552
+generating token 51 of 100, memory allocated: 15154153472
+generating token 51 of 100, memory allocated: 15154153472
+generating token 52 of 100, memory allocated: 15184069120
+generating token 52 of 100, memory allocated: 15184069120
+generating token 53 of 100, memory allocated: 15215273984
+generating token 53 of 100, memory allocated: 15215273984
+generating token 54 of 100, memory allocated: 15248517120
+generating token 54 of 100, memory allocated: 15248517120
+generating token 55 of 100, memory allocated: 15281383424
+generating token 55 of 100, memory allocated: 15281383424
+generating token 56 of 100, memory allocated: 15314782720
+generating token 56 of 100, memory allocated: 15314782720
+generating token 57 of 100, memory allocated: 15350286848
+generating token 57 of 100, memory allocated: 15350286848
+generating token 58 of 100, memory allocated: 15385709056
+generating token 58 of 100, memory allocated: 15385709056
+generating token 59 of 100, memory allocated: 15422056960
+generating token 59 of 100, memory allocated: 15422056960
+generating token 60 of 100, memory allocated: 15458456576
+generating token 60 of 100, memory allocated: 15458456576
+generating token 61 of 100, memory allocated: 15496587776
+generating token 61 of 100, memory allocated: 15496587776
+generating token 62 of 100, memory allocated: 15534565888
+generating token 62 of 100, memory allocated: 15534565888
+generating token 63 of 100, memory allocated: 15572822528
+generating token 63 of 100, memory allocated: 15572822528
+generating token 64 of 100, memory allocated: 15611673600
+generating token 64 of 100, memory allocated: 15611673600
+generating token 65 of 100, memory allocated: 15651858944
+generating token 65 of 100, memory allocated: 15651858944
+generating token 66 of 100, memory allocated: 15691354112
+generating token 66 of 100, memory allocated: 15691354112
+generating token 67 of 100, memory allocated: 15732181504
+generating token 67 of 100, memory allocated: 15732181504
+generating token 68 of 100, memory allocated: 15774041088
+generating token 68 of 100, memory allocated: 15774041088
+generating token 69 of 100, memory allocated: 15814457344
+generating token 69 of 100, memory allocated: 15814457344
+generating token 70 of 100, memory allocated: 15856728064
+generating token 70 of 100, memory allocated: 15856728064
+generating token 71 of 100, memory allocated: 15900076544
+generating token 71 of 100, memory allocated: 15900076544
+generating token 72 of 100, memory allocated: 15942674944
+generating token 72 of 100, memory allocated: 15942674944
+generating token 73 of 100, memory allocated: 15986460160
+generating token 73 of 100, memory allocated: 15986460160
+generating token 74 of 100, memory allocated: 16031533568
+generating token 74 of 100, memory allocated: 16031533568
+generating token 75 of 100, memory allocated: 16077187584
+generating token 75 of 100, memory allocated: 16077187584
+generating token 76 of 100, memory allocated: 16122235392
+generating token 76 of 100, memory allocated: 16122235392
+generating token 77 of 100, memory allocated: 16168225280
+generating token 77 of 100, memory allocated: 16168225280
+generating token 78 of 100, memory allocated: 16214362624
+generating token 78 of 100, memory allocated: 16214362624
+generating token 79 of 100, memory allocated: 16262572544
+generating token 79 of 100, memory allocated: 16262572544
+generating token 80 of 100, memory allocated: 16308922880
+generating token 80 of 100, memory allocated: 16308922880
+generating token 81 of 100, memory allocated: 16362260992
+generating token 81 of 100, memory allocated: 16362260992
+generating token 82 of 100, memory allocated: 16407734784
+generating token 82 of 100, memory allocated: 16407734784
+generating token 83 of 100, memory allocated: 16491364352
+generating token 83 of 100, memory allocated: 16491364352
+generating token 84 of 100, memory allocated: 16549704192
+generating token 84 of 100, memory allocated: 16549704192
+generating token 85 of 100, memory allocated: 16600242176
+generating token 85 of 100, memory allocated: 16600242176
+generating token 86 of 100, memory allocated: 16645594112
+generating token 86 of 100, memory allocated: 16645594112
+generating token 87 of 100, memory allocated: 16696764928
+generating token 87 of 100, memory allocated: 16696764928
+generating token 88 of 100, memory allocated: 16744730112
+generating token 88 of 100, memory allocated: 16744730112
+generating token 89 of 100, memory allocated: 16797589504
+generating token 89 of 100, memory allocated: 16797589504
+generating token 90 of 100, memory allocated: 16853422080
+generating token 90 of 100, memory allocated: 16853422080
+generating token 91 of 100, memory allocated: 16904079872
+generating token 91 of 100, memory allocated: 16904079872
+generating token 92 of 100, memory allocated: 16957462528
+generating token 92 of 100, memory allocated: 16957462528
+generating token 93 of 100, memory allocated: 17008139776
+generating token 93 of 100, memory allocated: 17008139776
+generating token 94 of 100, memory allocated: 17063000064
+generating token 94 of 100, memory allocated: 17063000064
+generating token 95 of 100, memory allocated: 17118897664
+generating token 95 of 100, memory allocated: 17118897664
+generating token 96 of 100, memory allocated: 17176441344
+generating token 96 of 100, memory allocated: 17176441344
+generating token 97 of 100, memory allocated: 17233549824
+generating token 97 of 100, memory allocated: 17233549824
+generating token 98 of 100, memory allocated: 17289458176
+generating token 98 of 100, memory allocated: 17289458176
+generating token 99 of 100, memory allocated: 17342247424
+generating token 99 of 100, memory allocated: 17342247424
+generated code:  recreate the image in latex.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+generated code:  recreate the image in latex.0
+
+0
+0
+
+
+
+
+
+
+
+
+
+
+
+
+0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0
+
+0
+0
+0
+
+0
+
+
+
+
+
+
+
+
+
+0
+
+0
+0
+
+
+0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/tmp/tmp8t2lvgk2/temp.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22>
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1  r
+      ecreate the image in latex.0000000000000000000000000000000000000000000...
+
+? 
+! Emergency stop.
+ ...                                              
+                                                  
+l.1  r
+      ecreate the image in latex.0000000000000000000000000000000000000000000...
+
+!  ==> Fatal error occurred, no output PDF file produced!
+Transcript written on /tmp/tmp8t2lvgk2/temp.log.
+entering extended mode
+(/tmp/tmpml1gsost/temp.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22>
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1  r
+      ecreate the image in latex.0
+? 
+! Emergency stop.
+ ...                                              
+                                                  
+l.1  r
+      ecreate the image in latex.0
+!  ==> Fatal error occurred, no output PDF file produced!
+Transcript written on /tmp/tmpml1gsost/temp.log.
+CalledProcessError: Command '['pdflatex', '-output-directory', '/tmp/tmp8t2lvgk2', '/tmp/tmp8t2lvgk2/temp.tex']' returned non-zero exit status 1., 
+latex code:  recreate the image in latex.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 does not compile
+loss: 1000.0, type: <class 'torch.Tensor'>
+CalledProcessError: Command '['pdflatex', '-output-directory', '/tmp/tmpml1gsost', '/tmp/tmpml1gsost/temp.tex']' returned non-zero exit status 1., 
+latex code:  recreate the image in latex.0
+
+0
+0
+
+
+
+
+
+
+
+
+
+
+
+
+0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0
+
+0
+0
+0
+
+0
+
+
+
+
+
+
+
+
+
+0
+
+0
+0
+
+
+0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ does not compile
+loss: 1000.0, type: <class 'torch.Tensor'>
+/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/torch/distributed/fsdp/fully_sharded_data_parallel.py:1077: UserWarning: Called FSDP.clip_grad_norm_() on rank 1 with no gradients -- returning the total norm in the default dtype torch.float32
+  warnings.warn(
+/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/torch/distributed/fsdp/fully_sharded_data_parallel.py:1077: UserWarning: Called FSDP.clip_grad_norm_() on rank 0 with no gradients -- returning the total norm in the default dtype torch.float32
+  warnings.warn(
+  0%|          | 1/32247 [06:20<3404:04:22, 380.04s/it]                                                       {'loss': 1000.0, 'learning_rate': 2.066115702479339e-08, 'epoch': 0.0}
+  0%|          | 1/32247 [06:20<3404:04:22, 380.04s/it]size of input_ids: torch.Size([1, 9])
+generating code after input:  recreate the image in latex.
+generating token 0 of 100, memory allocated: 14327865344
+size of input_ids: torch.Size([1, 9])
+generating code after input:  recreate the image in latex.
+generating token 0 of 100, memory allocated: 14327865344
+generating token 1 of 100, memory allocated: 14333161472
+generating token 1 of 100, memory allocated: 14333161472
+generating token 2 of 100, memory allocated: 14338468352
+generating token 2 of 100, memory allocated: 14338468352
+generating token 3 of 100, memory allocated: 14344299520
+generating token 3 of 100, memory allocated: 14344299520
+generating token 4 of 100, memory allocated: 14350654976
+generating token 4 of 100, memory allocated: 14350654976
+generating token 5 of 100, memory allocated: 14357534720
+generating token 5 of 100, memory allocated: 14357534720
+generating token 6 of 100, memory allocated: 14364938752
+generating token 6 of 100, memory allocated: 14364938752
+generating token 7 of 100, memory allocated: 14372867072
+generating token 7 of 100, memory allocated: 14372867072
+generating token 8 of 100, memory allocated: 14381319680
+generating token 8 of 100, memory allocated: 14381319680
+generating token 9 of 100, memory allocated: 14390499840
+generating token 9 of 100, memory allocated: 14390499840
+generating token 10 of 100, memory allocated: 14401871872
+generating token 10 of 100, memory allocated: 14401871872
+generating token 11 of 100, memory allocated: 14410019840
+generating token 11 of 100, memory allocated: 14410019840
+generating token 12 of 100, memory allocated: 14422125056
+generating token 12 of 100, memory allocated: 14422125056
+generating token 13 of 100, memory allocated: 14433150976
+generating token 13 of 100, memory allocated: 14433150976
+generating token 14 of 100, memory allocated: 14445922816
+generating token 14 of 100, memory allocated: 14445922816
+generating token 15 of 100, memory allocated: 14456994816
+generating token 15 of 100, memory allocated: 14456994816
+generating token 16 of 100, memory allocated: 14468932608
+generating token 16 of 100, memory allocated: 14468932608
+generating token 17 of 100, memory allocated: 14482922496
+generating token 17 of 100, memory allocated: 14482922496
+generating token 18 of 100, memory allocated: 14499357696
+generating token 18 of 100, memory allocated: 14499357696
+generating token 19 of 100, memory allocated: 14512536576
+generating token 19 of 100, memory allocated: 14512536576
+generating token 20 of 100, memory allocated: 14525244416
+generating token 20 of 100, memory allocated: 14525244416
+generating token 21 of 100, memory allocated: 14540659712
+generating token 21 of 100, memory allocated: 14540659712
+generating token 22 of 100, memory allocated: 14556914688
+generating token 22 of 100, memory allocated: 14556914688
+generating token 23 of 100, memory allocated: 14573992960
+generating token 23 of 100, memory allocated: 14573992960
+generating token 24 of 100, memory allocated: 14590225408
+generating token 24 of 100, memory allocated: 14590225408
+generating token 25 of 100, memory allocated: 14608057344
+generating token 25 of 100, memory allocated: 14608057344
+generating token 26 of 100, memory allocated: 14625358848
+generating token 26 of 100, memory allocated: 14625358848
+generating token 27 of 100, memory allocated: 14642988032
+generating token 27 of 100, memory allocated: 14642988032
+generating token 28 of 100, memory allocated: 14661215232
+generating token 28 of 100, memory allocated: 14661215232
+generating token 29 of 100, memory allocated: 14682293248
+generating token 29 of 100, memory allocated: 14682293248
+generating token 30 of 100, memory allocated: 14703510528
+generating token 30 of 100, memory allocated: 14703510528
+generating token 31 of 100, memory allocated: 14721629184
+generating token 31 of 100, memory allocated: 14721629184
+generating token 32 of 100, memory allocated: 14742430720
+generating token 32 of 100, memory allocated: 14742430720
+generating token 33 of 100, memory allocated: 14764375040
+generating token 33 of 100, memory allocated: 14764375040
+generating token 34 of 100, memory allocated: 14788699136
+generating token 34 of 100, memory allocated: 14788699136
+generating token 35 of 100, memory allocated: 14809900032
+generating token 35 of 100, memory allocated: 14809900032
+generating token 36 of 100, memory allocated: 14833198080
+generating token 36 of 100, memory allocated: 14833198080
+generating token 37 of 100, memory allocated: 14857823232
+generating token 37 of 100, memory allocated: 14857823232
+generating token 38 of 100, memory allocated: 14879237120
+generating token 38 of 100, memory allocated: 14879237120
+generating token 39 of 100, memory allocated: 14904747008
+generating token 39 of 100, memory allocated: 14904747008
+generating token 40 of 100, memory allocated: 14928995328generating token 40 of 100, memory allocated: 14928995328
+
+generating token 41 of 100, memory allocated: 14959109120
+generating token 41 of 100, memory allocated: 14959109120
+generating token 42 of 100, memory allocated: 14981907456
+generating token 42 of 100, memory allocated: 14981907456
+generating token 43 of 100, memory allocated: 15008228352
+generating token 43 of 100, memory allocated: 15008228352
+generating token 44 of 100, memory allocated: 15037260800
+generating token 44 of 100, memory allocated: 15037260800
+generating token 45 of 100, memory allocated: 15064433664
+generating token 45 of 100, memory allocated: 15064433664
+generating token 46 of 100, memory allocated: 15092474880
+generating token 46 of 100, memory allocated: 15092474880
+generating token 47 of 100, memory allocated: 15121417216
+generating token 47 of 100, memory allocated: 15121417216
+generating token 48 of 100, memory allocated: 15149687808
+generating token 48 of 100, memory allocated: 15149687808
+generating token 49 of 100, memory allocated: 15181014016
+generating token 49 of 100, memory allocated: 15181014016
+generating token 50 of 100, memory allocated: 15212397568
+generating token 50 of 100, memory allocated: 15212397568
+generating token 51 of 100, memory allocated: 15241405440
+generating token 51 of 100, memory allocated: 15241405440
+generating token 52 of 100, memory allocated: 15272584192
+generating token 52 of 100, memory allocated: 15272584192
+generating token 53 of 100, memory allocated: 15305679872
+generating token 53 of 100, memory allocated: 15305679872
+generating token 54 of 100, memory allocated: 15342085120
+generating token 54 of 100, memory allocated: 15342085120
+generating token 55 of 100, memory allocated: 15370200064
+generating token 55 of 100, memory allocated: 15370200064
+generating token 56 of 100, memory allocated: 15403902464
+generating token 56 of 100, memory allocated: 15403902464
+generating token 57 of 100, memory allocated: 15437850112
+generating token 57 of 100, memory allocated: 15437850112
+generating token 58 of 100, memory allocated: 15473018368
+generating token 58 of 100, memory allocated: 15473018368
+generating token 59 of 100, memory allocated: 15509546496
+generating token 59 of 100, memory allocated: 15509546496
+generating token 60 of 100, memory allocated: 15544291328
+generating token 60 of 100, memory allocated: 15544291328
+generating token 61 of 100, memory allocated: 15585674752
+generating token 61 of 100, memory allocated: 15585674752
+generating token 62 of 100, memory allocated: 15617541632
+generating token 62 of 100, memory allocated: 15617541632
+generating token 63 of 100, memory allocated: 15657526784
+generating token 63 of 100, memory allocated: 15657526784
+generating token 64 of 100, memory allocated: 15691671040
+generating token 64 of 100, memory allocated: 15691671040
+generating token 65 of 100, memory allocated: 15731303936
+generating token 65 of 100, memory allocated: 15731303936
+generating token 66 of 100, memory allocated: 15769347584
+generating token 66 of 100, memory allocated: 15769347584
+generating token 67 of 100, memory allocated: 15810848256
+generating token 67 of 100, memory allocated: 15810848256
+generating token 68 of 100, memory allocated: 15853381120
+generating token 68 of 100, memory allocated: 15853381120
+generating token 69 of 100, memory allocated: 15888483840
+generating token 69 of 100, memory allocated: 15888483840
+generating token 70 of 100, memory allocated: 15929758720
+generating token 70 of 100, memory allocated: 15929758720
+generating token 71 of 100, memory allocated: 15971182080
+generating token 71 of 100, memory allocated: 15971182080
+generating token 72 of 100, memory allocated: 16012895744
+generating token 72 of 100, memory allocated: 16012895744
+generating token 73 of 100, memory allocated: 16056247808
+generating token 73 of 100, memory allocated: 16056247808
+generating token 74 of 100, memory allocated: 16098797056
+generating token 74 of 100, memory allocated: 16098797056
+generating token 75 of 100, memory allocated: 16142730752
+generating token 75 of 100, memory allocated: 16142730752
+generating token 76 of 100, memory allocated: 16190776832
+generating token 76 of 100, memory allocated: 16190776832
+generating token 77 of 100, memory allocated: 16230983168
+generating token 77 of 100, memory allocated: 16230983168
+generating token 78 of 100, memory allocated: 16276186624
+generating token 78 of 100, memory allocated: 16276186624
+generating token 79 of 100, memory allocated: 16324681216
+generating token 79 of 100, memory allocated: 16324681216
+generating token 80 of 100, memory allocated: 16367740416
+generating token 80 of 100, memory allocated: 16367740416
+generating token 81 of 100, memory allocated: 16420972032
+generating token 81 of 100, memory allocated: 16420972032
+generating token 82 of 100, memory allocated: 16462849536
+generating token 82 of 100, memory allocated: 16462849536
+generating token 83 of 100, memory allocated: 16509511168
+generating token 83 of 100, memory allocated: 16509511168
+generating token 84 of 100, memory allocated: 16559695360
+generating token 84 of 100, memory allocated: 16559695360
+generating token 85 of 100, memory allocated: 16607364608
+generating token 85 of 100, memory allocated: 16607364608
+generating token 86 of 100, memory allocated: 16659015168
+generating token 86 of 100, memory allocated: 16659015168
+generating token 87 of 100, memory allocated: 16708789760
+generating token 87 of 100, memory allocated: 16708789760
+generating token 88 of 100, memory allocated: 16756270592
+generating token 88 of 100, memory allocated: 16756270592
+generating token 89 of 100, memory allocated: 16807141888
+generating token 89 of 100, memory allocated: 16807141888
+generating token 90 of 100, memory allocated: 16859407872
+generating token 90 of 100, memory allocated: 16859407872
+generating token 91 of 100, memory allocated: 16910910976
+generating token 91 of 100, memory allocated: 16910910976
+generating token 92 of 100, memory allocated: 16966034944
+generating token 92 of 100, memory allocated: 16966034944
+generating token 93 of 100, memory allocated: 17016489472
+generating token 93 of 100, memory allocated: 17016489472
+generating token 94 of 100, memory allocated: 17069605888
+generating token 94 of 100, memory allocated: 17069605888
+generating token 95 of 100, memory allocated: 17124746752
+generating token 95 of 100, memory allocated: 17124746752
+generating token 96 of 100, memory allocated: 17178355200
+generating token 96 of 100, memory allocated: 17178355200
+generating token 97 of 100, memory allocated: 17235063296
+generating token 97 of 100, memory allocated: 17235063296
+generating token 98 of 100, memory allocated: 17292520448
+generating token 98 of 100, memory allocated: 17292520448
+generating token 99 of 100, memory allocated: 17350239744
+generating token 99 of 100, memory allocated: 17350239744
+generated code:  recreate the image in latex.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+generated code:  recreate the image in latex.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/tmp/tmp3b54sw9l/temp.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22>
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1  r
+      ecreate the image in latex.
+? 
+! Emergency stop.
+ ...                                              
+                                                  
+l.1  r
+      ecreate the image in latex.
+!  ==> Fatal error occurred, no output PDF file produced!
+Transcript written on /tmp/tmp3b54sw9l/temp.log.
+entering extended mode
+(/tmp/tmpu6jb9ysq/temp.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22>
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1  r
+      ecreate the image in latex.
+? 
+! Emergency stop.
+ ...                                              
+                                                  
+l.1  r
+      ecreate the image in latex.
+!  ==> Fatal error occurred, no output PDF file produced!
+Transcript written on /tmp/tmpu6jb9ysq/temp.log.
+CalledProcessError: Command '['pdflatex', '-output-directory', '/tmp/tmpu6jb9ysq', '/tmp/tmpu6jb9ysq/temp.tex']' returned non-zero exit status 1., 
+latex code:  recreate the image in latex.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ does not compile
+loss: 1000.0, type: <class 'torch.Tensor'>
+/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/torch/distributed/fsdp/fully_sharded_data_parallel.py:1077: UserWarning: Called FSDP.clip_grad_norm_() on rank 0 with no gradients -- returning the total norm in the default dtype torch.float32
+  warnings.warn(
+  0%|          | 2/32247 [12:31<3357:05:42, 374.80s/it]CalledProcessError: Command '['pdflatex', '-output-directory', '/tmp/tmp3b54sw9l', '/tmp/tmp3b54sw9l/temp.tex']' returned non-zero exit status 1., 
+latex code:  recreate the image in latex.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ does not compile
+loss: 1000.0, type: <class 'torch.Tensor'>
+/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/torch/distributed/fsdp/fully_sharded_data_parallel.py:1077: UserWarning: Called FSDP.clip_grad_norm_() on rank 1 with no gradients -- returning the total norm in the default dtype torch.float32
+  warnings.warn(
+                                                       {'loss': 1000.0, 'learning_rate': 4.132231404958678e-08, 'epoch': 0.0}
+  0%|          | 2/32247 [12:31<3357:05:42, 374.80s/it]size of input_ids: torch.Size([1, 9])
+generating code after input:  recreate the image in latex.
+generating token 0 of 100, memory allocated: 14327865344
+size of input_ids: torch.Size([1, 9])
+generating code after input:  recreate the image in latex.
+generating token 0 of 100, memory allocated: 14327865344
+generating token 1 of 100, memory allocated: 14333161472
+generating token 1 of 100, memory allocated: 14333161472
+generating token 2 of 100, memory allocated: 14338468352
+generating token 2 of 100, memory allocated: 14338468352
+generating token 3 of 100, memory allocated: 14344299520
+generating token 3 of 100, memory allocated: 14344299520
+generating token 4 of 100, memory allocated: 14350654976
+generating token 4 of 100, memory allocated: 14350654976
+generating token 5 of 100, memory allocated: 14357534720
+generating token 5 of 100, memory allocated: 14357534720
+generating token 6 of 100, memory allocated: 14364938752
+generating token 6 of 100, memory allocated: 14364938752
+generating token 7 of 100, memory allocated: 14372867072
+generating token 7 of 100, memory allocated: 14372867072
+generating token 8 of 100, memory allocated: 14381319680
+generating token 8 of 100, memory allocated: 14381319680
+generating token 9 of 100, memory allocated: 14390499840
+generating token 9 of 100, memory allocated: 14390499840
+generating token 10 of 100, memory allocated: 14401871872
+generating token 10 of 100, memory allocated: 14401871872
+generating token 11 of 100, memory allocated: 14410019840
+generating token 11 of 100, memory allocated: 14410019840
+generating token 12 of 100, memory allocated: 14422125056
+generating token 12 of 100, memory allocated: 14422125056
+generating token 13 of 100, memory allocated: 14433150976
+generating token 13 of 100, memory allocated: 14433150976
+generating token 14 of 100, memory allocated: 14445922816
+generating token 14 of 100, memory allocated: 14445922816
+generating token 15 of 100, memory allocated: 14456994816
+generating token 15 of 100, memory allocated: 14456994816
+generating token 16 of 100, memory allocated: 14468932608
+generating token 16 of 100, memory allocated: 14468932608
+generating token 17 of 100, memory allocated: 14482922496
+generating token 17 of 100, memory allocated: 14482922496
+generating token 18 of 100, memory allocated: 14499357696
+generating token 18 of 100, memory allocated: 14499357696
+generating token 19 of 100, memory allocated: 14512536576
+generating token 19 of 100, memory allocated: 14512536576
+generating token 20 of 100, memory allocated: 14525244416
+generating token 20 of 100, memory allocated: 14525244416
+generating token 21 of 100, memory allocated: 14540659712
+generating token 21 of 100, memory allocated: 14540659712
+generating token 22 of 100, memory allocated: 14556914688
+generating token 22 of 100, memory allocated: 14556914688
+generating token 23 of 100, memory allocated: 14573992960
+generating token 23 of 100, memory allocated: 14573992960
+generating token 24 of 100, memory allocated: 14590225408
+generating token 24 of 100, memory allocated: 14590225408
+generating token 25 of 100, memory allocated: 14608057344
+generating token 25 of 100, memory allocated: 14608057344
+generating token 26 of 100, memory allocated: 14625358848
+generating token 26 of 100, memory allocated: 14625358848
+generating token 27 of 100, memory allocated: 14642988032
+generating token 27 of 100, memory allocated: 14642988032
+generating token 28 of 100, memory allocated: 14661215232
+generating token 28 of 100, memory allocated: 14661215232
+generating token 29 of 100, memory allocated: 14682293248
+generating token 29 of 100, memory allocated: 14682293248
+generating token 30 of 100, memory allocated: 14703510528
+generating token 30 of 100, memory allocated: 14703510528
+generating token 31 of 100, memory allocated: 14721629184
+generating token 31 of 100, memory allocated: 14721629184
+generating token 32 of 100, memory allocated: 14742430720
+generating token 32 of 100, memory allocated: 14742430720
+generating token 33 of 100, memory allocated: 14764375040
+generating token 33 of 100, memory allocated: 14764375040
+generating token 34 of 100, memory allocated: 14788699136
+generating token 34 of 100, memory allocated: 14788699136
+generating token 35 of 100, memory allocated: 14809900032
+generating token 35 of 100, memory allocated: 14809900032
+generating token 36 of 100, memory allocated: 14833198080
+generating token 36 of 100, memory allocated: 14833198080
+generating token 37 of 100, memory allocated: 14857823232
+generating token 37 of 100, memory allocated: 14857823232
+generating token 38 of 100, memory allocated: 14879237120
+generating token 38 of 100, memory allocated: 14879237120
+generating token 39 of 100, memory allocated: 14904747008
+generating token 39 of 100, memory allocated: 14904747008
+generating token 40 of 100, memory allocated: 14928995328
+generating token 40 of 100, memory allocated: 14928995328
+generating token 41 of 100, memory allocated: 14959109120
+generating token 41 of 100, memory allocated: 14959109120
+generating token 42 of 100, memory allocated: 14981907456
+generating token 42 of 100, memory allocated: 14981907456
+generating token 43 of 100, memory allocated: 15008228352
+generating token 43 of 100, memory allocated: 15008228352
+generating token 44 of 100, memory allocated: 15037260800
+generating token 44 of 100, memory allocated: 15037260800
+generating token 45 of 100, memory allocated: 15064433664
+generating token 45 of 100, memory allocated: 15064433664
+generating token 46 of 100, memory allocated: 15092474880
+generating token 46 of 100, memory allocated: 15092474880
+generating token 47 of 100, memory allocated: 15121417216
+generating token 47 of 100, memory allocated: 15121417216
+generating token 48 of 100, memory allocated: 15149687808
+generating token 48 of 100, memory allocated: 15149687808
+generating token 49 of 100, memory allocated: 15181014016
+generating token 49 of 100, memory allocated: 15181014016
+generating token 50 of 100, memory allocated: 15212397568
+generating token 50 of 100, memory allocated: 15212397568
+generating token 51 of 100, memory allocated: 15241405440
+generating token 51 of 100, memory allocated: 15241405440
+generating token 52 of 100, memory allocated: 15272584192
+generating token 52 of 100, memory allocated: 15272584192
+generating token 53 of 100, memory allocated: 15305679872
+generating token 53 of 100, memory allocated: 15305679872
+generating token 54 of 100, memory allocated: 15342085120
+generating token 54 of 100, memory allocated: 15342085120
+generating token 55 of 100, memory allocated: 15370200064
+generating token 55 of 100, memory allocated: 15370200064
+generating token 56 of 100, memory allocated: 15403902464
+generating token 56 of 100, memory allocated: 15403902464
+generating token 57 of 100, memory allocated: 15437850112
+generating token 57 of 100, memory allocated: 15437850112
+generating token 58 of 100, memory allocated: 15473018368
+generating token 58 of 100, memory allocated: 15473018368
+generating token 59 of 100, memory allocated: 15509546496
+generating token 59 of 100, memory allocated: 15509546496
+generating token 60 of 100, memory allocated: 15544291328
+generating token 60 of 100, memory allocated: 15544291328
+generating token 61 of 100, memory allocated: 15585674752
+generating token 61 of 100, memory allocated: 15585674752
+generating token 62 of 100, memory allocated: 15617541632
+generating token 62 of 100, memory allocated: 15617541632
+generating token 63 of 100, memory allocated: 15657526784
+generating token 63 of 100, memory allocated: 15657526784
+generating token 64 of 100, memory allocated: 15691671040
+generating token 64 of 100, memory allocated: 15691671040
+generating token 65 of 100, memory allocated: 15731303936
+generating token 65 of 100, memory allocated: 15731303936
+generating token 66 of 100, memory allocated: 15769347584
+generating token 66 of 100, memory allocated: 15769347584
+generating token 67 of 100, memory allocated: 15810848256
+generating token 67 of 100, memory allocated: 15810848256
+generating token 68 of 100, memory allocated: 15853381120
+generating token 68 of 100, memory allocated: 15853381120
+generating token 69 of 100, memory allocated: 15888483840
+generating token 69 of 100, memory allocated: 15888483840
+generating token 70 of 100, memory allocated: 15929758720
+generating token 70 of 100, memory allocated: 15929758720
+generating token 71 of 100, memory allocated: 15971182080
+generating token 71 of 100, memory allocated: 15971182080
+generating token 72 of 100, memory allocated: 16012895744
+generating token 72 of 100, memory allocated: 16012895744
+generating token 73 of 100, memory allocated: 16056247808
+generating token 73 of 100, memory allocated: 16056247808
+generating token 74 of 100, memory allocated: 16098797056
+generating token 74 of 100, memory allocated: 16098797056
+generating token 75 of 100, memory allocated: 16142730752
+generating token 75 of 100, memory allocated: 16142730752
+generating token 76 of 100, memory allocated: 16190776832
+generating token 76 of 100, memory allocated: 16190776832
+generating token 77 of 100, memory allocated: 16230983168
+generating token 77 of 100, memory allocated: 16230983168
+generating token 78 of 100, memory allocated: 16276186624
+generating token 78 of 100, memory allocated: 16276186624
+generating token 79 of 100, memory allocated: 16324681216
+generating token 79 of 100, memory allocated: 16324681216
+generating token 80 of 100, memory allocated: 16367740416
+generating token 80 of 100, memory allocated: 16367740416
+generating token 81 of 100, memory allocated: 16420972032
+generating token 81 of 100, memory allocated: 16420972032
+generating token 82 of 100, memory allocated: 16462849536
+generating token 82 of 100, memory allocated: 16462849536
+generating token 83 of 100, memory allocated: 16509511168
+generating token 83 of 100, memory allocated: 16509511168
+generating token 84 of 100, memory allocated: 16559695360
+generating token 84 of 100, memory allocated: 16559695360
+generating token 85 of 100, memory allocated: 16607364608
+generating token 85 of 100, memory allocated: 16607364608
+generating token 86 of 100, memory allocated: 16659015168
+generating token 86 of 100, memory allocated: 16659015168
+generating token 87 of 100, memory allocated: 16708789760
+generating token 87 of 100, memory allocated: 16708789760
+generating token 88 of 100, memory allocated: 16756270592
+generating token 88 of 100, memory allocated: 16756270592
+generating token 89 of 100, memory allocated: 16807141888
+generating token 89 of 100, memory allocated: 16807141888
+generating token 90 of 100, memory allocated: 16859407872
+generating token 90 of 100, memory allocated: 16859407872
+generating token 91 of 100, memory allocated: 16910910976
+generating token 91 of 100, memory allocated: 16910910976
+generating token 92 of 100, memory allocated: 16966034944
+generating token 92 of 100, memory allocated: 16966034944
+generating token 93 of 100, memory allocated: 17016489472
+generating token 93 of 100, memory allocated: 17016489472
+generating token 94 of 100, memory allocated: 17069605888
+generating token 94 of 100, memory allocated: 17069605888
+generating token 95 of 100, memory allocated: 17124746752
+generating token 95 of 100, memory allocated: 17124746752
+generating token 96 of 100, memory allocated: 17178355200
+generating token 96 of 100, memory allocated: 17178355200
+generating token 97 of 100, memory allocated: 17235063296
+generating token 97 of 100, memory allocated: 17235063296
+generating token 98 of 100, memory allocated: 17292520448
+generating token 98 of 100, memory allocated: 17292520448
+generating token 99 of 100, memory allocated: 17350239744
+generating token 99 of 100, memory allocated: 17350239744
+generated code:  recreate the image in latex.0000000000000
+0
+00
+
+0
+0
+0
+0
+0
+0
+0
+00
+00
+
+0
+0
+0
+0
+00
+0
+0
+0
+000
+0
+0
+00
+000000
+0000000000000000
+00
+00
+0
+generated code:  recreate the image in latex.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/tmp/tmpqigenbzg/temp.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22>
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1  r
+      ecreate the image in latex.0000000000000000000000000000000000000000000...
+
+? 
+! Emergency stop.
+ ...                                              
+                                                  
+l.1  r
+      ecreate the image in latex.0000000000000000000000000000000000000000000...
+
+!  ==> Fatal error occurred, no output PDF file produced!
+Transcript written on /tmp/tmpqigenbzg/temp.log.
+entering extended mode
+(/tmp/tmplg3qcfa5/temp.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22>
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1  r
+      ecreate the image in latex.0000000000000
+? 
+! Emergency stop.
+ ...                                              
+                                                  
+l.1  r
+      ecreate the image in latex.0000000000000
+!  ==> Fatal error occurred, no output PDF file produced!
+Transcript written on /tmp/tmplg3qcfa5/temp.log.
+CalledProcessError: Command '['pdflatex', '-output-directory', '/tmp/tmplg3qcfa5', '/tmp/tmplg3qcfa5/temp.tex']' returned non-zero exit status 1., 
+latex code:  recreate the image in latex.0000000000000
+0
+00
+
+0
+0
+0
+0
+0
+0
+0
+00
+00
+
+0
+0
+0
+0
+00
+0
+0
+0
+000
+0
+0
+00
+000000
+0000000000000000
+00
+00
+0 does not compile
+loss: 1000.0, type: <class 'torch.Tensor'>
+/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/torch/distributed/fsdp/fully_sharded_data_parallel.py:1077: UserWarning: Called FSDP.clip_grad_norm_() on rank 0 with no gradients -- returning the total norm in the default dtype torch.float32
+  warnings.warn(
+  0%|          | 3/32247 [18:43<3345:23:25, 373.51s/it]CalledProcessError: Command '['pdflatex', '-output-directory', '/tmp/tmpqigenbzg', '/tmp/tmpqigenbzg/temp.tex']' returned non-zero exit status 1., 
+latex code:  recreate the image in latex.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 does not compile
+loss: 1000.0, type: <class 'torch.Tensor'>
+/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/torch/distributed/fsdp/fully_sharded_data_parallel.py:1077: UserWarning: Called FSDP.clip_grad_norm_() on rank 1 with no gradients -- returning the total norm in the default dtype torch.float32
+  warnings.warn(
+                                                       {'loss': 1000.0, 'learning_rate': 6.198347107438017e-08, 'epoch': 0.0}
+  0%|          | 3/32247 [18:43<3345:23:25, 373.51s/it]size of input_ids: torch.Size([1, 9])
+generating code after input:  recreate the image in latex.
+generating token 0 of 100, memory allocated: 14327865344
+size of input_ids: torch.Size([1, 9])
+generating code after input:  recreate the image in latex.
+generating token 0 of 100, memory allocated: 14327865344
+generating token 1 of 100, memory allocated: 14333161472
+generating token 1 of 100, memory allocated: 14333161472
+generating token 2 of 100, memory allocated: 14338468352
+generating token 2 of 100, memory allocated: 14338468352
+generating token 3 of 100, memory allocated: 14344299520
+generating token 3 of 100, memory allocated: 14344299520
+generating token 4 of 100, memory allocated: 14350654976
+generating token 4 of 100, memory allocated: 14350654976
+generating token 5 of 100, memory allocated: 14357534720
+generating token 5 of 100, memory allocated: 14357534720
+generating token 6 of 100, memory allocated: 14364938752
+generating token 6 of 100, memory allocated: 14364938752
+generating token 7 of 100, memory allocated: 14372867072
+generating token 7 of 100, memory allocated: 14372867072
+generating token 8 of 100, memory allocated: 14381319680
+generating token 8 of 100, memory allocated: 14381319680
+generating token 9 of 100, memory allocated: 14390499840
+generating token 9 of 100, memory allocated: 14390499840
+generating token 10 of 100, memory allocated: 14401871872
+generating token 10 of 100, memory allocated: 14401871872
+generating token 11 of 100, memory allocated: 14410019840
+generating token 11 of 100, memory allocated: 14410019840
+generating token 12 of 100, memory allocated: 14422125056
+generating token 12 of 100, memory allocated: 14422125056
+generating token 13 of 100, memory allocated: 14433150976
+generating token 13 of 100, memory allocated: 14433150976
+generating token 14 of 100, memory allocated: 14445922816
+generating token 14 of 100, memory allocated: 14445922816
+generating token 15 of 100, memory allocated: 14456994816
+generating token 15 of 100, memory allocated: 14456994816
+generating token 16 of 100, memory allocated: 14468932608
+generating token 16 of 100, memory allocated: 14468932608
+generating token 17 of 100, memory allocated: 14482922496
+generating token 17 of 100, memory allocated: 14482922496
+generating token 18 of 100, memory allocated: 14499357696
+generating token 18 of 100, memory allocated: 14499357696
+generating token 19 of 100, memory allocated: 14512536576
+generating token 19 of 100, memory allocated: 14512536576
+generating token 20 of 100, memory allocated: 14525244416
+generating token 20 of 100, memory allocated: 14525244416
+generating token 21 of 100, memory allocated: 14540659712
+generating token 21 of 100, memory allocated: 14540659712
+generating token 22 of 100, memory allocated: 14556914688
+generating token 22 of 100, memory allocated: 14556914688
+generating token 23 of 100, memory allocated: 14573992960
+generating token 23 of 100, memory allocated: 14573992960
+generating token 24 of 100, memory allocated: 14590225408
+generating token 24 of 100, memory allocated: 14590225408
+generating token 25 of 100, memory allocated: 14608057344
+generating token 25 of 100, memory allocated: 14608057344
+generating token 26 of 100, memory allocated: 14625358848
+generating token 26 of 100, memory allocated: 14625358848
+generating token 27 of 100, memory allocated: 14642988032
+generating token 27 of 100, memory allocated: 14642988032
+generating token 28 of 100, memory allocated: 14661215232
+generating token 28 of 100, memory allocated: 14661215232
+generating token 29 of 100, memory allocated: 14682293248
+generating token 29 of 100, memory allocated: 14682293248
+generating token 30 of 100, memory allocated: 14703510528
+generating token 30 of 100, memory allocated: 14703510528
+generating token 31 of 100, memory allocated: 14721629184
+generating token 31 of 100, memory allocated: 14721629184
+generating token 32 of 100, memory allocated: 14742430720
+generating token 32 of 100, memory allocated: 14742430720
+generating token 33 of 100, memory allocated: 14764375040
+generating token 33 of 100, memory allocated: 14764375040
+generating token 34 of 100, memory allocated: 14788699136
+generating token 34 of 100, memory allocated: 14788699136
+generating token 35 of 100, memory allocated: 14809900032
+generating token 35 of 100, memory allocated: 14809900032
+generating token 36 of 100, memory allocated: 14833198080
+generating token 36 of 100, memory allocated: 14833198080
+generating token 37 of 100, memory allocated: 14857823232
+generating token 37 of 100, memory allocated: 14857823232
+generating token 38 of 100, memory allocated: 14879237120
+generating token 38 of 100, memory allocated: 14879237120
+generating token 39 of 100, memory allocated: 14904747008
+generating token 39 of 100, memory allocated: 14904747008
+generating token 40 of 100, memory allocated: 14928995328
+generating token 40 of 100, memory allocated: 14928995328
+generating token 41 of 100, memory allocated: 14959109120
+generating token 41 of 100, memory allocated: 14959109120
+generating token 42 of 100, memory allocated: 14981907456
+generating token 42 of 100, memory allocated: 14981907456
+generating token 43 of 100, memory allocated: 15008228352
+generating token 43 of 100, memory allocated: 15008228352
+generating token 44 of 100, memory allocated: 15037260800
+generating token 44 of 100, memory allocated: 15037260800
+generating token 45 of 100, memory allocated: 15064433664
+generating token 45 of 100, memory allocated: 15064433664
+generating token 46 of 100, memory allocated: 15092474880
+generating token 46 of 100, memory allocated: 15092474880
+generating token 47 of 100, memory allocated: 15121417216
+generating token 47 of 100, memory allocated: 15121417216
+generating token 48 of 100, memory allocated: 15149687808
+generating token 48 of 100, memory allocated: 15149687808
+generating token 49 of 100, memory allocated: 15181014016
+generating token 49 of 100, memory allocated: 15181014016
+generating token 50 of 100, memory allocated: 15212397568
+generating token 50 of 100, memory allocated: 15212397568
+generating token 51 of 100, memory allocated: 15241405440
+generating token 51 of 100, memory allocated: 15241405440
+generating token 52 of 100, memory allocated: 15272584192
+generating token 52 of 100, memory allocated: 15272584192
+generating token 53 of 100, memory allocated: 15305679872
+generating token 53 of 100, memory allocated: 15305679872
+generating token 54 of 100, memory allocated: 15342085120
+generating token 54 of 100, memory allocated: 15342085120
+generating token 55 of 100, memory allocated: 15370200064
+generating token 55 of 100, memory allocated: 15370200064
+generating token 56 of 100, memory allocated: 15403902464
+generating token 56 of 100, memory allocated: 15403902464
+generating token 57 of 100, memory allocated: 15437850112
+generating token 57 of 100, memory allocated: 15437850112
+generating token 58 of 100, memory allocated: 15473018368
+generating token 58 of 100, memory allocated: 15473018368
+generating token 59 of 100, memory allocated: 15509546496
+generating token 59 of 100, memory allocated: 15509546496
+generating token 60 of 100, memory allocated: 15544291328
+generating token 60 of 100, memory allocated: 15544291328
+generating token 61 of 100, memory allocated: 15585674752
+generating token 61 of 100, memory allocated: 15585674752
+generating token 62 of 100, memory allocated: 15617541632
+generating token 62 of 100, memory allocated: 15617541632
+generating token 63 of 100, memory allocated: 15657526784
+generating token 63 of 100, memory allocated: 15657526784
+generating token 64 of 100, memory allocated: 15691671040
+generating token 64 of 100, memory allocated: 15691671040
+generating token 65 of 100, memory allocated: 15731303936
+generating token 65 of 100, memory allocated: 15731303936
+generating token 66 of 100, memory allocated: 15769347584
+generating token 66 of 100, memory allocated: 15769347584
+generating token 67 of 100, memory allocated: 15810848256
+generating token 67 of 100, memory allocated: 15810848256
+generating token 68 of 100, memory allocated: 15853381120
+generating token 68 of 100, memory allocated: 15853381120
+generating token 69 of 100, memory allocated: 15888483840
+generating token 69 of 100, memory allocated: 15888483840
+generating token 70 of 100, memory allocated: 15929758720
+generating token 70 of 100, memory allocated: 15929758720
+generating token 71 of 100, memory allocated: 15971182080
+generating token 71 of 100, memory allocated: 15971182080
+generating token 72 of 100, memory allocated: 16012895744
+generating token 72 of 100, memory allocated: 16012895744
+generating token 73 of 100, memory allocated: 16056247808
+generating token 73 of 100, memory allocated: 16056247808
+generating token 74 of 100, memory allocated: 16098797056
+generating token 74 of 100, memory allocated: 16098797056
+generating token 75 of 100, memory allocated: 16142730752
+generating token 75 of 100, memory allocated: 16142730752
+generating token 76 of 100, memory allocated: 16190776832
+generating token 76 of 100, memory allocated: 16190776832
+generating token 77 of 100, memory allocated: 16230983168
+generating token 77 of 100, memory allocated: 16230983168
+generating token 78 of 100, memory allocated: 16276186624
+generating token 78 of 100, memory allocated: 16276186624
+generating token 79 of 100, memory allocated: 16324681216
+generating token 79 of 100, memory allocated: 16324681216
+generating token 80 of 100, memory allocated: 16367740416
+generating token 80 of 100, memory allocated: 16367740416
+generating token 81 of 100, memory allocated: 16420972032
+generating token 81 of 100, memory allocated: 16420972032
+generating token 82 of 100, memory allocated: 16462849536
+generating token 82 of 100, memory allocated: 16462849536
+generating token 83 of 100, memory allocated: 16509511168
+generating token 83 of 100, memory allocated: 16509511168
+generating token 84 of 100, memory allocated: 16559695360
+generating token 84 of 100, memory allocated: 16559695360
+generating token 85 of 100, memory allocated: 16607364608
+generating token 85 of 100, memory allocated: 16607364608
+generating token 86 of 100, memory allocated: 16659015168
+generating token 86 of 100, memory allocated: 16659015168
+generating token 87 of 100, memory allocated: 16708789760
+generating token 87 of 100, memory allocated: 16708789760
+generating token 88 of 100, memory allocated: 16756270592
+generating token 88 of 100, memory allocated: 16756270592
+generating token 89 of 100, memory allocated: 16807141888
+generating token 89 of 100, memory allocated: 16807141888
+generating token 90 of 100, memory allocated: 16859407872
+generating token 90 of 100, memory allocated: 16859407872
+generating token 91 of 100, memory allocated: 16910910976
+generating token 91 of 100, memory allocated: 16910910976
+generating token 92 of 100, memory allocated: 16966034944
+generating token 92 of 100, memory allocated: 16966034944
+generating token 93 of 100, memory allocated: 17016489472
+generating token 93 of 100, memory allocated: 17016489472
+generating token 94 of 100, memory allocated: 17069605888
+generating token 94 of 100, memory allocated: 17069605888
+generating token 95 of 100, memory allocated: 17124746752
+generating token 95 of 100, memory allocated: 17124746752
+generating token 96 of 100, memory allocated: 17178355200
+generating token 96 of 100, memory allocated: 17178355200
+generating token 97 of 100, memory allocated: 17235063296
+generating token 97 of 100, memory allocated: 17235063296
+generating token 98 of 100, memory allocated: 17292520448
+generating token 98 of 100, memory allocated: 17292520448
+generating token 99 of 100, memory allocated: 17350239744
+generating token 99 of 100, memory allocated: 17350239744
+generated code:  recreate the image in latex.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+generated code:  recreate the image in latex.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/tmp/tmpizl7k6ol/temp.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22>
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1  r
+      ecreate the image in latex.0000000000000000000000000000000000000000000...
+
+? 
+! Emergency stop.
+ ...                                              
+                                                  
+l.1  r
+      ecreate the image in latex.0000000000000000000000000000000000000000000...
+
+!  ==> Fatal error occurred, no output PDF file produced!
+Transcript written on /tmp/tmpizl7k6ol/temp.log.
+entering extended mode
+(/tmp/tmpigktpfyr/temp.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22>
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1  r
+      ecreate the image in latex.0000000000000000000000000000000000000000000...
+
+? 
+! Emergency stop.
+ ...                                              
+                                                  
+l.1  r
+      ecreate the image in latex.0000000000000000000000000000000000000000000...
+
+!  ==> Fatal error occurred, no output PDF file produced!
+Transcript written on /tmp/tmpigktpfyr/temp.log.
+CalledProcessError: Command '['pdflatex', '-output-directory', '/tmp/tmpizl7k6ol', '/tmp/tmpizl7k6ol/temp.tex']' returned non-zero exit status 1., 
+latex code:  recreate the image in latex.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 does not compile
+loss: 1000.0, type: <class 'torch.Tensor'>
+/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/torch/distributed/fsdp/fully_sharded_data_parallel.py:1077: UserWarning: Called FSDP.clip_grad_norm_() on rank 1 with no gradients -- returning the total norm in the default dtype torch.float32
+  warnings.warn(
+CalledProcessError: Command '['pdflatex', '-output-directory', '/tmp/tmpigktpfyr', '/tmp/tmpigktpfyr/temp.tex']' returned non-zero exit status 1., 
+latex code:  recreate the image in latex.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 does not compile
+loss: 1000.0, type: <class 'torch.Tensor'>
+/home/jaded79/.conda/envs/mmcoder/lib/python3.11/site-packages/torch/distributed/fsdp/fully_sharded_data_parallel.py:1077: UserWarning: Called FSDP.clip_grad_norm_() on rank 0 with no gradients -- returning the total norm in the default dtype torch.float32
+  warnings.warn(
+  0%|          | 4/32247 [24:52<3331:35:23, 371.98s/it]                                                       {'loss': 1000.0, 'learning_rate': 8.264462809917357e-08, 'epoch': 0.0}
+  0%|          | 4/32247 [24:52<3331:35:23, 371.98s/it]size of input_ids: torch.Size([1, 9])
+generating code after input:  recreate the image in latex.
+generating token 0 of 100, memory allocated: 14327865344
+size of input_ids: torch.Size([1, 9])
+generating code after input:  recreate the image in latex.
+generating token 0 of 100, memory allocated: 14327865344
+generating token 1 of 100, memory allocated: 14333161472
+generating token 1 of 100, memory allocated: 14333161472
+generating token 2 of 100, memory allocated: 14338468352
+generating token 2 of 100, memory allocated: 14338468352
+generating token 3 of 100, memory allocated: 14344299520
+generating token 3 of 100, memory allocated: 14344299520
+generating token 4 of 100, memory allocated: 14350654976
+generating token 4 of 100, memory allocated: 14350654976
+generating token 5 of 100, memory allocated: 14357534720
+generating token 5 of 100, memory allocated: 14357534720
+generating token 6 of 100, memory allocated: 14364938752
+generating token 6 of 100, memory allocated: 14364938752
+generating token 7 of 100, memory allocated: 14372867072
+generating token 7 of 100, memory allocated: 14372867072
+generating token 8 of 100, memory allocated: 14381319680
+generating token 8 of 100, memory allocated: 14381319680
+generating token 9 of 100, memory allocated: 14390499840
+generating token 9 of 100, memory allocated: 14390499840
+generating token 10 of 100, memory allocated: 14401871872
+generating token 10 of 100, memory allocated: 14401871872
+generating token 11 of 100, memory allocated: 14410019840
+generating token 11 of 100, memory allocated: 14410019840
+generating token 12 of 100, memory allocated: 14422125056
+generating token 12 of 100, memory allocated: 14422125056
+generating token 13 of 100, memory allocated: 14433150976
+generating token 13 of 100, memory allocated: 14433150976
+generating token 14 of 100, memory allocated: 14445922816
+generating token 14 of 100, memory allocated: 14445922816
+generating token 15 of 100, memory allocated: 14456994816
+generating token 15 of 100, memory allocated: 14456994816
+generating token 16 of 100, memory allocated: 14468932608
+generating token 16 of 100, memory allocated: 14468932608
+generating token 17 of 100, memory allocated: 14482922496
+generating token 17 of 100, memory allocated: 14482922496
+generating token 18 of 100, memory allocated: 14499357696
+generating token 18 of 100, memory allocated: 14499357696
+generating token 19 of 100, memory allocated: 14512536576
+generating token 19 of 100, memory allocated: 14512536576
+generating token 20 of 100, memory allocated: 14525244416
+generating token 20 of 100, memory allocated: 14525244416
+generating token 21 of 100, memory allocated: 14540659712
+generating token 21 of 100, memory allocated: 14540659712
+generating token 22 of 100, memory allocated: 14556914688
+generating token 22 of 100, memory allocated: 14556914688
+generating token 23 of 100, memory allocated: 14573992960
+generating token 23 of 100, memory allocated: 14573992960
+generating token 24 of 100, memory allocated: 14590225408
+generating token 24 of 100, memory allocated: 14590225408
+generating token 25 of 100, memory allocated: 14608057344
+generating token 25 of 100, memory allocated: 14608057344
+generating token 26 of 100, memory allocated: 14625358848
+generating token 26 of 100, memory allocated: 14625358848
+generating token 27 of 100, memory allocated: 14642988032
+generating token 27 of 100, memory allocated: 14642988032
+generating token 28 of 100, memory allocated: 14661215232
+generating token 28 of 100, memory allocated: 14661215232
+generating token 29 of 100, memory allocated: 14682293248
+generating token 29 of 100, memory allocated: 14682293248
+generating token 30 of 100, memory allocated: 14703510528
+generating token 30 of 100, memory allocated: 14703510528
+generating token 31 of 100, memory allocated: 14721629184
+generating token 31 of 100, memory allocated: 14721629184
+generating token 32 of 100, memory allocated: 14742430720
+generating token 32 of 100, memory allocated: 14742430720
+generating token 33 of 100, memory allocated: 14764375040
+generating token 33 of 100, memory allocated: 14764375040
+generating token 34 of 100, memory allocated: 14788699136
+generating token 34 of 100, memory allocated: 14788699136
+generating token 35 of 100, memory allocated: 14809900032
+generating token 35 of 100, memory allocated: 14809900032
+generating token 36 of 100, memory allocated: 14833198080
+generating token 36 of 100, memory allocated: 14833198080
+generating token 37 of 100, memory allocated: 14857823232
+generating token 37 of 100, memory allocated: 14857823232
+generating token 38 of 100, memory allocated: 14879237120
+generating token 38 of 100, memory allocated: 14879237120
+generating token 39 of 100, memory allocated: 14904747008
+generating token 39 of 100, memory allocated: 14904747008
+generating token 40 of 100, memory allocated: 14928995328
+generating token 40 of 100, memory allocated: 14928995328
+generating token 41 of 100, memory allocated: 14959109120
+generating token 41 of 100, memory allocated: 14959109120
+generating token 42 of 100, memory allocated: 14981907456
+generating token 42 of 100, memory allocated: 14981907456
+generating token 43 of 100, memory allocated: 15008228352
+generating token 43 of 100, memory allocated: 15008228352
+generating token 44 of 100, memory allocated: 15037260800
+generating token 44 of 100, memory allocated: 15037260800
+generating token 45 of 100, memory allocated: 15064433664
+generating token 45 of 100, memory allocated: 15064433664
+generating token 46 of 100, memory allocated: 15092474880
+generating token 46 of 100, memory allocated: 15092474880
+generating token 47 of 100, memory allocated: 15121417216
+generating token 47 of 100, memory allocated: 15121417216
+generating token 48 of 100, memory allocated: 15149687808
+generating token 48 of 100, memory allocated: 15149687808
+generating token 49 of 100, memory allocated: 15181014016
+generating token 49 of 100, memory allocated: 15181014016
+generating token 50 of 100, memory allocated: 15212397568
+generating token 50 of 100, memory allocated: 15212397568
+generating token 51 of 100, memory allocated: 15241405440
+generating token 51 of 100, memory allocated: 15241405440
+generating token 52 of 100, memory allocated: 15272584192
+generating token 52 of 100, memory allocated: 15272584192
+generating token 53 of 100, memory allocated: 15305679872
+generating token 53 of 100, memory allocated: 15305679872
+generating token 54 of 100, memory allocated: 15342085120
+generating token 54 of 100, memory allocated: 15342085120
+generating token 55 of 100, memory allocated: 15370200064
+generating token 55 of 100, memory allocated: 15370200064
+generating token 56 of 100, memory allocated: 15403902464
+generating token 56 of 100, memory allocated: 15403902464
+generating token 57 of 100, memory allocated: 15437850112
+generating token 57 of 100, memory allocated: 15437850112
+generating token 58 of 100, memory allocated: 15473018368
+generating token 58 of 100, memory allocated: 15473018368
+generating token 59 of 100, memory allocated: 15509546496
+generating token 59 of 100, memory allocated: 15509546496
+generating token 60 of 100, memory allocated: 15544291328
+generating token 60 of 100, memory allocated: 15544291328
+generating token 61 of 100, memory allocated: 15585674752
+generating token 61 of 100, memory allocated: 15585674752
+generating token 62 of 100, memory allocated: 15617541632
+generating token 62 of 100, memory allocated: 15617541632
+generating token 63 of 100, memory allocated: 15657526784
+generating token 63 of 100, memory allocated: 15657526784
+generating token 64 of 100, memory allocated: 15691671040
+generating token 64 of 100, memory allocated: 15691671040
+generating token 65 of 100, memory allocated: 15731303936
+generating token 65 of 100, memory allocated: 15731303936
+generating token 66 of 100, memory allocated: 15769347584
+generating token 66 of 100, memory allocated: 15769347584
+generating token 67 of 100, memory allocated: 15810848256
+generating token 67 of 100, memory allocated: 15810848256
+generating token 68 of 100, memory allocated: 15853381120
+generating token 68 of 100, memory allocated: 15853381120
+generating token 69 of 100, memory allocated: 15888483840
+generating token 69 of 100, memory allocated: 15888483840
+generating token 70 of 100, memory allocated: 15929758720
+generating token 70 of 100, memory allocated: 15929758720
+generating token 71 of 100, memory allocated: 15971182080
+generating token 71 of 100, memory allocated: 15971182080
+generating token 72 of 100, memory allocated: 16012895744
+generating token 72 of 100, memory allocated: 16012895744
+generating token 73 of 100, memory allocated: 16056247808
+generating token 73 of 100, memory allocated: 16056247808
+generating token 74 of 100, memory allocated: 16098797056
+generating token 74 of 100, memory allocated: 16098797056
+generating token 75 of 100, memory allocated: 16142730752
+generating token 75 of 100, memory allocated: 16142730752
+generating token 76 of 100, memory allocated: 16190776832
+generating token 76 of 100, memory allocated: 16190776832
+generating token 77 of 100, memory allocated: 16230983168
+generating token 77 of 100, memory allocated: 16230983168
+generating token 78 of 100, memory allocated: 16276186624
+generating token 78 of 100, memory allocated: 16276186624
+generating token 79 of 100, memory allocated: 16324681216
+generating token 79 of 100, memory allocated: 16324681216
+generating token 80 of 100, memory allocated: 16367740416
+generating token 80 of 100, memory allocated: 16367740416
+generating token 81 of 100, memory allocated: 16420972032
+generating token 81 of 100, memory allocated: 16420972032
+generating token 82 of 100, memory allocated: 16462849536
+generating token 82 of 100, memory allocated: 16462849536
+generating token 83 of 100, memory allocated: 16509511168
+generating token 83 of 100, memory allocated: 16509511168
+generating token 84 of 100, memory allocated: 16559695360
+generating token 84 of 100, memory allocated: 16559695360
+generating token 85 of 100, memory allocated: 16607364608
+generating token 85 of 100, memory allocated: 16607364608
+generating token 86 of 100, memory allocated: 16659015168
+generating token 86 of 100, memory allocated: 16659015168
+generating token 87 of 100, memory allocated: 16708789760
+generating token 87 of 100, memory allocated: 16708789760
+generating token 88 of 100, memory allocated: 16756270592
+generating token 88 of 100, memory allocated: 16756270592
+slurmstepd: error: *** JOB 56147138 ON cs-1-3 CANCELLED AT 2023-03-28T12:47:14 ***

@@ -14,11 +14,11 @@ from typing import Callable
 from transformers import Trainer
 import io
 import subprocess as sub
+from subprocess import CalledProcessError
 from pdf2image import convert_from_bytes, convert_from_path
 from PIL import Image
 import tempfile
 import re
-
 
 IGNORE_INDEX = -100
 DEFAULT_PAD_TOKEN = "[PAD]"
@@ -134,7 +134,7 @@ def latex_to_image(latex_str: str, dpi: int = 150) -> Image.Image:
 
     # Read the generated PDF into a BytesIO object
     pdf_data = io.BytesIO(latex_process.stdout)
-    print(pdf_data.getvalue())
+    # print(pdf_data.getvalue())
     # Run pdftoppm on the PDF data to generate the image
     pdftoppm_process = sub.run(
         ["pdftoppm", "-png", "-rx", "150", "-ry", "150", "-", "-"],
@@ -162,11 +162,6 @@ class TrueReader(LlamaForCausalLM):
         self.embed_image = ImageEmbeddingModel()
         self.embeddings_project = torch.nn.Linear(self.config.hidden_size + 2048, self.config.hidden_size)
 
-    # def is_valid_latex(self, latex_code: str) -> bool:
-    #     # You can use a more sophisticated check, but for now, we'll use a simple regex pattern
-    #     pattern = r"\\documentclass.*?\\begin{document}.*?\\end{document}"
-    #     return bool(re.search(pattern, latex_code, re.DOTALL))
-
     def forward(
             self,
             input_ids: torch.LongTensor = None,
@@ -181,87 +176,60 @@ class TrueReader(LlamaForCausalLM):
             images: torch.FloatTensor = None,
         ) -> Union[Tuple, CausalLMOutputWithPast]:
 
-        print(f'in forward pass. input_ids size before embedding: {input_ids.shape}')
+        # print(f'in forward pass. input_ids size before embedding: {input_ids.shape}')
         text_embeddings = self.model.embed_tokens(input_ids)
     
         # Get the image embeddings using ResNet
         image_embeddings = self.embed_image(images)
         
         # check if the shape of both embeddings
-        print(f'In forward pass. text embeddings: {text_embeddings.shape}, image embeddings: {image_embeddings.shape}')
+        # print(f'In forward pass. text embeddings: {text_embeddings.shape}, image embeddings: {image_embeddings.shape}')
 
         # Resize the image embeddings to match the text embeddings shape
         image_embeddings = image_embeddings.view(image_embeddings.size(0), 1, -1).repeat(1, text_embeddings.size(1), 1)
-        print(f'resized image embeddings: {image_embeddings.shape}')
+        # print(f'resized image embeddings: {image_embeddings.shape}')
         # Concatenate the text and image embeddings
         combined_embeddings = torch.cat([text_embeddings, image_embeddings], dim=-1)
-        inputs_embeds = self.embeddings_project(combined_embeddings)
+        inputs_embeds = self.embeddings_project(combined_embeddings) # TODO: this is a bad idea, bc the attention mask no longer works this way. the combined embeddings should remain as-is, and the attention mask should be modified to account for the image embeddings.
 
         # Run through transformer
         output = super().forward(input_ids=None, attention_mask=attention_mask, past_key_values=past_key_values, inputs_embeds=inputs_embeds, labels=labels, use_cache=use_cache, output_attentions=output_attentions, output_hidden_states=output_hidden_states, return_dict=return_dict)
-        return output
-        # compute loss
-        # Generate LaTeX code and render it as a PNG image
-        # token_ids = output.logits.argmax(dim=-1).squeeze(0)
-        # print(f'in forward function, token id shape: {token_ids.shape}')
-        # latex_code = tokenizer.batch_decode(token_ids.tolist())  # Convert the model's output to LaTeX code
-        # print(f'latex code: {latex_code}')
-        # try:
-        #     gen_image = latex_to_images_tempfile(latex_code)   # Render the LaTeX code as a PNG image
-        # except RuntimeError as e: # if the latex code does not compile, return inf loss
-        #     print(f'Runtime error: {e}, \nlatex code: {latex_code} does not compile')
-        #     return CausalLMOutputWithPast(
-        #         loss=torch.inf,
-        #         logits=output.logits,
-        #         past_key_values=output.past_key_values,
-        #         hidden_states=output.hidden_states,
-        #         attentions=output.attentions,
-        #     )
+        return output # loss will now be calculated by custom Trainer, because it can only be done after full image is generated.
 
-        
-        # kl_div_loss = self.compute_kl_div_loss(images, gen_image)
-        # loss = kl_div_loss
-
-        # return CausalLMOutputWithPast(
-        #     loss=loss,
-        #     logits=output.logits,
-        #     past_key_values=output.past_key_values,
-        #     hidden_states=output.hidden_states,
-        #     attentions=output.attentions,
-        # )
-    
-    # def compute_kl_div_loss(self, ref_image: torch.Tensor, gen_image: torch.Tensor) -> torch.Tensor:
-    #     ref_image_prob = F.softmax(ref_image.view(ref_image.size(0), -1), dim=-1)
-    #     gen_image_prob = F.softmax(gen_image.view(gen_image.size(0), -1), dim=-1)
-    #     kl_div_loss = F.kl_div(torch.log(gen_image_prob), ref_image_prob, reduction="batchmean")
-    #     return kl_div_loss
-
-    # def training_step(self, batch: dict, batch_idx: int, optimizer_idx: int = None, hiddens: Any = None) -> torch.Tensor:
-    #     images = batch.pop("images")
-    #     outputs = self(**batch)
-    #     lm_loss = outputs.loss
-        
-    #     # Generate LaTeX code and render it as a PNG image
-    #     latex_code = tokenizer.decode(outputs.logits.argmax(dim=-1).squeeze(0))  # Convert the model's output to LaTeX code
-    #     gen_image = latex_to_image_tempfile(latex_code)   # Render the LaTeX code as a PNG image
-        
-    #     kl_div_loss = self.compute_kl_div_loss(images, gen_image)
-        
-    #     loss = lm_loss + kl_div_loss
-    #     return loss
 from transformers import Trainer
+
+from torch.utils.checkpoint import checkpoint
 
 def generate_latex_code(model, input_ids, tokenizer, images, max_length=100):
     batch_size = input_ids.size(0)
     gen_tokens = input_ids
     eos_token_id = tokenizer.eos_token_id
     past_key_values = None
-    
-    for _ in range(max_length):
-        outputs = model(input_ids=gen_tokens, past_key_values=past_key_values, images=images)
+
+    print(f'size of input_ids: {input_ids.shape}')
+    print(f'generating code after input: {tokenizer.decode(input_ids[0])}')
+    # log_probs_list = []  # Initialize an empty list to store log probabilities of generated tokens
+    for i in range(max_length):
+        gpu_memory_allocated = torch.cuda.memory_allocated()
+        print(f'generating token {i} of {max_length}, memory allocated: {gpu_memory_allocated}')
+
+        # input_ids.requires_grad = True # TODO: a fix to a warning given. May break things, may fix a future bug regarding backprop.
+        images.requires_grad = True # same as above
+        # wrapped_model = lambda input_ids, past_key_values, images: model(input_ids=input_ids, past_key_values=past_key_values, images=images)
+
+        # outputs = checkpoint(wrapped_model, gen_tokens, past_key_values, images)
+        wrapped_model = lambda input_ids, past_key_values, images: model(input_ids=input_ids, past_key_values=past_key_values, images=images)
+
+        outputs = checkpoint(wrapped_model, gen_tokens, past_key_values, images)
         logits = outputs.logits[:, -1, :]
+        # # To calculate the log probabilities, you first obtain the probability distribution over the vocabulary for each generated token using the softmax function applied to the output logits from your model:
+        # probs = F.softmax(logits, dim=-1)
+        # # Next, you can calculate the log probabilities by taking the logarithm of the probabilities:
+        # log_probs = torch.log(probs)
+        # logits = outputs.logits[:, -1, :]
         next_tokens = torch.argmax(logits, dim=-1).unsqueeze(-1)
         gen_tokens = torch.cat((gen_tokens, next_tokens), dim=1)
+        # log_prob = log_probs[0, next_tokens[0, 0]]
 
         # Stop generating tokens if EOS token is reached for all sequences
         if torch.all(next_tokens.view(-1) == eos_token_id):
@@ -270,6 +238,7 @@ def generate_latex_code(model, input_ids, tokenizer, images, max_length=100):
         past_key_values = outputs.past_key_values
 
     latex_code_list = [tokenizer.decode(token_ids) for token_ids in gen_tokens]
+    print(f'generated code: {latex_code_list[0]}')
     return latex_code_list
 
 
@@ -292,28 +261,29 @@ class CustomTrainer(Trainer):
         images, input_ids = inputs["images"], inputs["input_ids"]
         images = images.to(self.args.device)
         input_ids = input_ids.to(self.args.device)
-
+        model.train()
         # Generate full LaTeX sequence
         gen_latex_code = generate_latex_code(model, input_ids, self.tokenizer, images, max_length=100)
 
-        # Calculate custom loss
-        loss = 0
+        # Calculate custom loss after multiple steps are done.
+        loss = torch.tensor(0.0).to(self.args.device) # start at zero
         for latex_code, original_image in zip(gen_latex_code, images):
             try:
                 gen_image = latex_to_images_tempfile([latex_code])   # Render the LaTeX code as a PNG image
-            except RuntimeError as e: # if the latex code does not compile, return inf loss
-                print(f'Runtime error: {e}, \nlatex code: {latex_code} does not compile')
-                return {"loss": torch.inf} # TODO: check if inf loss is correct
+            except CalledProcessError as e: # if the latex code does not compile, return big loss
+                print(f'CalledProcessError: {e}, \nlatex code: {latex_code} does not compile')
+                loss += torch.tensor(1000.0).to(self.args.device) # TODO: check if this value of loss is correct
+                continue
             
             gen_image_tensor = transforms.to_tensor(gen_image).to(self.args.device)  # Convert generated image to tensor
 
             # Compute KL divergence loss between original image and generated image
-            kl_loss = self.compute_kl_div_loss(original_image, gen_image_tensor)
+            kl_loss = self.compute_kl_div_loss(original_image, gen_image_tensor).detach()
             loss += kl_loss
 
         loss = loss / len(images)
-
-        return {"loss": loss}
+        print(f'loss: {loss}, type: {type(loss)}')
+        return loss
 
 class ImageTextDataset(Dataset):
     def __init__(self, img_dir, prompt):
@@ -334,7 +304,7 @@ class ImageTextDataset(Dataset):
         text = self.prompt
         input_ids = self.tokenizer(text, return_tensors="pt", padding=True, truncation=True)["input_ids"].squeeze(0)
         # print(f"Dataset item text: {input_ids}")
-        print(f"in dataloader. input shape: {input_ids.shape}, image shape: {image.shape}")
+        # print(f"in dataloader. input shape: {input_ids.shape}, image shape: {image.shape}")
         return { "input_ids": input_ids, "images": image}
 
 class ImageTextDataCollator:
@@ -350,7 +320,7 @@ class ImageTextDataCollator:
         )
         # input_ids = self.tokenizer(input_ids, return_tensors="pt", padding=True, truncation=True)["input_ids"]
         attention_mask = input_ids.ne(tokenizer.pad_token_id)
-        print(f'in collator. input_ids shape: {input_ids.shape}, attention_mask shape: {attention_mask.shape}, images shape: {torch.stack(images).shape}')
+        # print(f'in collator. input_ids shape: {input_ids.shape}, attention_mask shape: {attention_mask.shape}, images shape: {torch.stack(images).shape}')
         return {"input_ids": input_ids, "attention_mask": attention_mask, "images": torch.stack(images)}
 
 def make_image_text_data_module(tokenizer, img_dir, prompt):
